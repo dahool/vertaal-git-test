@@ -1,0 +1,2057 @@
+# translation of add-on-creator.es.po to
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Carlos E. Robinson <robin.listas@telefonica.net>, 2007, 2008.
+# Sergio Gabriel Teves <gabriel@opensuse.org>, 2008.
+# Luis Martinez <lmartinez@sct.ictnet.es>, 2008.
+# Ricardo Varas Santana <rivarass@gmail.com>, 2008, 2009.
+# Miguel Angel Alvarez <maacruz@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: add-on-creator.es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-06 11:17+0100\n"
+"PO-Revision-Date: 2011-02-20 12:39-0300\n"
+"Last-Translator: Gabriel <gabriel@opensuse.org>\n"
+"Language-Team:  <opensuse-translation-es@opensuse.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Spanish\n"
+
+# include/backup/ui.ycp:1661
+#. label of content file key
+#: src/AddOnCreator.ycp:140
+msgid "Content file style"
+msgstr "Estilo de archivo de contenido"
+
+#. help text for content file CONTENTSTYLE key
+#: src/AddOnCreator.ycp:142
+msgid "Must be the first tag of the content file"
+msgstr "Debe ser la primera etiqueta del archivo de contenido"
+
+#. label of content file key
+#: src/AddOnCreator.ycp:149
+msgid "Product name"
+msgstr "Nombre del producto"
+
+#. help text for content file 'NAME' key
+#: src/AddOnCreator.ycp:151
+msgid "For internal usage. Same restrictions as for package names apply."
+msgstr "Para uso interno. Aplican las mismas restricciones que para los nombres de paquetes."
+
+# clients/hwinfo.ycp:86
+# clients/hwinfo.ycp:86
+# clients/hwinfo.ycp:86
+#. label of content file BASEARCHS key
+#: src/AddOnCreator.ycp:157
+msgid "Product architectures"
+msgstr "Arquitecturas del producto"
+
+# ????????
+#. help text for content file 'BASEARCHS' key
+#: src/AddOnCreator.ycp:159
+msgid "Space-separated list of product architectures. Matches the available product-release packages architectures. "
+msgstr "Lista separada por espacios de arquitecturas de producto. Coincide con la arquitectura de paquetes de productos publicados disponible."
+
+#. label of content file 'VERSION' key
+#: src/AddOnCreator.ycp:165
+msgid "Product version and release"
+msgstr "Versión y nº de revisión del producto"
+
+#. help text for content file 'VERSION' key
+#: src/AddOnCreator.ycp:167
+msgid "Product version and release as in RPM <tt>major.minor-release</tt>."
+msgstr "Versión y nº de revisión del producto como aparece en el RPM <tt>principal.secundaria-revisión</tt>."
+
+#. table item label
+#: src/AddOnCreator.ycp:174 src/AddOnCreator.ycp:627
+msgid "The release number"
+msgstr "El número de revisión"
+
+#. label of content file key
+#: src/AddOnCreator.ycp:181
+msgid "Distribution name"
+msgstr "Nombre de distribución"
+
+#. help text for content file 'DISTRIBUTION' key
+#: src/AddOnCreator.ycp:183
+msgid "Some string denoting the distribution. The same string is most probably used in the .rpms to denote the distribution. Usually a composition of the name, version and architecture."
+msgstr "Alguna cadena que denote la distribución. La misma cadena probablemente es probablemente más usada en los .rpms para indicar la distribución. Usualmente una conjunción del nombre, versión y arquitectura."
+
+#. label of content file key
+#: src/AddOnCreator.ycp:188
+msgid "Package description directory"
+msgstr "Directorio de descripciones de paquetes"
+
+#. help text for content file 'DESCRDIR' key
+#: src/AddOnCreator.ycp:191
+msgid "Package description directory (relative to product directory)."
+msgstr "Directorio de descripciones de paquetes (relativo al directorio del producto)."
+
+#. label of content file key
+#: src/AddOnCreator.ycp:197
+msgid "Package data directory"
+msgstr "Directorio de datos de paquetes"
+
+#. help text for content file 'DATADIR' key
+#: src/AddOnCreator.ycp:199
+msgid "Package data directory (relative to product directory)."
+msgstr "Directorio de datos de paquetes (relativo al directorio del producto)."
+
+#. label of content file key
+#: src/AddOnCreator.ycp:206
+msgid "Label"
+msgstr "Etiqueta"
+
+#. help text for content file '' key
+#: src/AddOnCreator.ycp:208
+msgid "UTF-8 encoded label. Default label if <b>LINGUAS</b> is omitted or no default language can be determined."
+msgstr "Etiqueta con codificación UTF-8. Etiqueta por omisión si se omite <b>LINGUAS</b> o si no se puede determinar el idioma por omisión."
+
+#. label of content file 'LINGUAS' key
+#: src/AddOnCreator.ycp:213
+msgid "Languages"
+msgstr "Idiomas"
+
+#. help text for content file 'LINGUAS' key
+#: src/AddOnCreator.ycp:215
+msgid "ISO language code or language code_country code."
+msgstr "Código de idioma ISO o código de idioma_código de país."
+
+#. label of content file 'LANGUAGE' key
+#: src/AddOnCreator.ycp:220
+msgid "Default language"
+msgstr "Idioma predeterminado"
+
+#. help text for content file 'LANGUAGE' key
+#: src/AddOnCreator.ycp:222
+msgid "Default language code."
+msgstr "Código de idioma predeterminado."
+
+#. label of content file 'PATTERNS' key
+#: src/AddOnCreator.ycp:229
+msgid "Preselected patterns"
+msgstr "Patrones preseleccionados"
+
+#. help text for content file 'PATTERNS' key
+#: src/AddOnCreator.ycp:231
+msgid "List of patterns preselected by the product."
+msgstr "Lista de patrones preseleccionados por el producto."
+
+#. label of content file key
+#: src/AddOnCreator.ycp:236
+msgid "Vendor name"
+msgstr "Nombre del fabricante"
+
+#. help text for content file 'VENDOR' key
+#: src/AddOnCreator.ycp:238
+msgid "Vendor name (free form)."
+msgstr "Nombre del fabricante (forma libre)."
+
+#. label of content file 'RELNOTESURL' key
+#: src/AddOnCreator.ycp:244
+msgid "Release notes URL"
+msgstr "URL de notas de la versión"
+
+#. help text for content file 'RELNOTESURL' key
+#: src/AddOnCreator.ycp:246
+msgid "URL from which to fetch release notes."
+msgstr "URL donde se pueden obtener las notas de la versión."
+
+#. label of content file 'UPDATEURLS' key
+#: src/AddOnCreator.ycp:251
+msgid "Update URL"
+msgstr "URL de actualización"
+
+#. help text for content file 'UPDATEURLS' key
+#: src/AddOnCreator.ycp:253
+msgid "URL of the update source."
+msgstr "URL del origen de actualización."
+
+#. label of content file LABEL.lang key
+#: src/AddOnCreator.ycp:262
+msgid "Language-specific label"
+msgstr "Etiqueta específica de cada idioma"
+
+#. help text for content file 'LABEL.lang' key
+#: src/AddOnCreator.ycp:264
+msgid "UTF-8-encoded <b>LABEL</b>. <tt>lang</tt> has the same syntax as the <b>LINGUAS</b> values. For each language in <b>LINGUAS</b>, a matching <b>LABEL.lang</b> is expected."
+msgstr "Valor de <b>LABEL</b> con codificación UTF-8. <tt>lang</tt> tiene la misma sintaxis que los valores de <b>LINGUAS</b>. Para cada idioma de <b>LINGUAS</b>, se espera un valor de <b>LABEL.lang</b> correspondiente."
+
+#. table header item
+#. input field label
+#: src/AddOnCreator.ycp:276 src/complex.ycp:161 src/complex.ycp:1036
+msgid "Version"
+msgstr "Versión"
+
+#. input field label
+#: src/AddOnCreator.ycp:282 src/complex.ycp:1054
+msgid "Release"
+msgstr "Revisión"
+
+#: src/AddOnCreator.ycp:288
+msgid "Architecture"
+msgstr "Arquitectura"
+
+#. label for 'Sum' key
+#: src/AddOnCreator.ycp:303 src/AddOnCreator.ycp:516
+msgid "Summary"
+msgstr "Resumen"
+
+#. help text for 'Sum' pattern key
+#: src/AddOnCreator.ycp:305
+msgid "One line label in the default language"
+msgstr "Etiqueta de una línea en el idioma por defecto"
+
+#. help text for 'Sum.lang' pattern key
+#: src/AddOnCreator.ycp:307
+msgid "One line language-specific label."
+msgstr "Etiqueta de una línea específica de cada idioma."
+
+#. label for 'Des' pattern key
+#. label for 'Des' key
+#. table header
+#: src/AddOnCreator.ycp:312 src/AddOnCreator.ycp:508 src/complex.ycp:737
+#: src/complex.ycp:765
+msgid "Description"
+msgstr "descripción"
+
+#. help text for 'Des' pattern key
+#: src/AddOnCreator.ycp:315
+msgid "Multiple line description in the default language"
+msgstr "Descripción de varias líneas en el idioma por defecto"
+
+#. help text for 'Des.lang' pattern key
+#: src/AddOnCreator.ycp:317
+msgid "Multiple line description, language-specific."
+msgstr "Descripción de varias líneas, específico para cada idioma."
+
+#. label for 'Cat' pattern key
+#: src/AddOnCreator.ycp:321
+msgid "Category"
+msgstr "Categoría"
+
+#. help text for 'Cat' pattern key
+#: src/AddOnCreator.ycp:323
+msgid "One line category in the default language used to group patterns. Categories are intended for the user and can be specified freely."
+msgstr "Categoría de una línea en el idioma por defecto que se utiliza para agrupar patrones. Las categorías están destinadas al usuario y se pueden especificar libremente."
+
+#. help text for 'Cat.lang' pattern key
+#: src/AddOnCreator.ycp:325
+msgid "Language-specific version of the category."
+msgstr "Versión de la categoría específica de cada idioma."
+
+#. label for 'Vis' pattern key
+#: src/AddOnCreator.ycp:330
+msgid "Visibility"
+msgstr "Visibilidad"
+
+#. help text for 'Vis' pattern key
+#: src/AddOnCreator.ycp:332
+msgid "Set whether the pattern should be visible in the user interface."
+msgstr "Define si el patrón debe estar visible en la interfaz del usuario."
+
+#. label for 'Prq' pattern key
+#: src/AddOnCreator.ycp:339
+msgid "Packages"
+msgstr "Paquetes"
+
+#. help text for 'Prq' pattern key
+#: src/AddOnCreator.ycp:341
+msgid "List of packages to install."
+msgstr "Lista de paquetes para instalar."
+
+#. label for 'Prc' pattern key
+#: src/AddOnCreator.ycp:347
+msgid "Recommended packages"
+msgstr "Paquetes recomendados"
+
+#. help text for 'Prc' pattern key
+#: src/AddOnCreator.ycp:349
+msgid "These packages are installed by default but can be removed without complaint."
+msgstr "Estos paquetes se instalan por defecto, pero se pueden eliminar sin problemas."
+
+#. label for 'Prs' pattern key
+#: src/AddOnCreator.ycp:355
+msgid "Suggested packages"
+msgstr "Paquetes sugeridos"
+
+#. help text for 'Prs' pattern key
+#. help text for 'Sug' pattern key
+#. help text for 'SUGGESTS' key
+#: src/AddOnCreator.ycp:357 src/AddOnCreator.ycp:434 src/AddOnCreator.ycp:621
+msgid "These are just hints for an application and not handled during dependency resolution."
+msgstr "Se trata sólo de sugerencias para una aplicación que no se gestionan durante la resolución de dependencias."
+
+#. label for 'Ico' pattern key
+#: src/AddOnCreator.ycp:363
+msgid "Icon filename"
+msgstr "Nombre de archivo de icono"
+
+#. help text for 'Ico' pattern key
+#: src/AddOnCreator.ycp:365
+msgid ""
+"If unspecified, the pattern name is used \n"
+" instead (with blanks in the name replaced by underscores). If the filename does not include a .png or .jpg extension, .png is appended. If no path is specified, icons are searched for in the theme icon path (first /usr/share/YaST2/theme/current/icons/32x32/apps/ then /usr/share/YaST2/theme/current/icons/48x48/apps/). Absolute and relative paths (to the theme path /usr/share/YaST2/theme/current/) are allowed."
+msgstr ""
+"Si no se especifica, se usa el nombre del patrón \n"
+" (los espacios del nombre se sustituyen con carácteres de subrayado). Si el nombre de archivo no incluye una extensión .png o .jpg, se añade .png. Si no se especifica ninguna ruta, se buscan los iconos en la ruta de iconos de temas (primero en /usr/share/YaST2/theme/current/icons/32x32/apps/, después en /usr/share/YaST2/theme/current/icons/48x48/apps/). Se admiten rutas absolutas y relativas (a la ruta de temas /usr/share/YaST2/theme/current/)."
+
+#. label for 'Ord' pattern key
+#: src/AddOnCreator.ycp:373
+msgid "Pattern Order"
+msgstr "Orden del patrón"
+
+#. help text for 'Ord' pattern key
+#: src/AddOnCreator.ycp:375
+msgid "This three-digit integer value defines the order of the pattern when listing multiple patterns in the user interface."
+msgstr "Este valor entero de tres cifras define el orden del patrón cuando se muestran varios patrones en la interfaz del usuario."
+
+#. label for 'Req' pattern key
+#: src/AddOnCreator.ycp:383
+msgid "Required patterns"
+msgstr "Patrones requeridos"
+
+#. help text for 'Req' pattern key
+#: src/AddOnCreator.ycp:385
+msgid "Patterns that need to be installed together with this pattern."
+msgstr "Patrones que se deben instalar con este patrón."
+
+#. label for 'Prv' pattern key
+#: src/AddOnCreator.ycp:391
+msgid "Provided patterns"
+msgstr "Patrones proporcionados"
+
+#. help text for 'Prv' pattern key
+#: src/AddOnCreator.ycp:393
+msgid "Capabilities this pattern provides. They can be used to match <b>REQUIRES</b> from others. Every resolvable has a provide by default--its own name and edition. For example, package <i>bar-1.42-1</i> provides the capability <tt>bar = 1.42-1</tt>."
+msgstr "Capacidades que proporciona este patrón. Se pueden usar para establecer la correspondencia con <b>REQUIRES</b> desde otros elementos. Cada resolución proporciona una capacidad por defecto, con su nombre y edición propios. Por ejemplo, el paquete <i>bar-1.42-1</i> proporciona la capacidad <tt>bar = 1.42-1</tt>."
+
+#. label for 'Con' pattern key
+#: src/AddOnCreator.ycp:399
+msgid "Conflicting patterns"
+msgstr "Patrones en conflicto"
+
+#. help text for 'Con' pattern key
+#: src/AddOnCreator.ycp:401
+msgid "This pattern cannot be installed if the specified resolvable or one that provides the capability is installed."
+msgstr "Este patrón no se puede instalar si la resolución especificada u otra que proporciona la capacidad están instaladas."
+
+#. label for 'Obs' pattern key
+#: src/AddOnCreator.ycp:407
+msgid "Patterns made obsolete"
+msgstr "Patrones obsoletos"
+
+#. help text for 'Obs' pattern key
+#: src/AddOnCreator.ycp:409
+msgid ""
+"When this pattern is installed, it uninstalls any \n"
+"other patterns marked as obsolete here."
+msgstr ""
+"Cuando se instala este patrón, se desinstala cualquier \n"
+"otro que esté marcado como obsoleto."
+
+#. label for 'Rec' pattern key
+#: src/AddOnCreator.ycp:416
+msgid "Recommended patterns"
+msgstr "Patrones recomendados"
+
+#. help text for 'Rec' pattern key
+#: src/AddOnCreator.ycp:418
+msgid "A weak version of REQUIRES. If recommended patterns cannot be installed, no error is shown."
+msgstr "Versión débil de REQUIRES. Si los patrones recomendados no se pueden instalar, no se muestra ningún error."
+
+#. label for 'Sup' pattern key
+#: src/AddOnCreator.ycp:424
+msgid "Supplemented patterns"
+msgstr "Patrones suplementarios"
+
+#. help text for 'Sup' pattern key
+#: src/AddOnCreator.ycp:426
+msgid "A reverse <b>Rec</b>. This pattern is installed if the specified capability is provided by an installed resolvable. The dependency resolver installs it. Uninstalling it is silently accepted."
+msgstr "Inverso de <b>Rec</b>. Este patrón se instala si la capacidad especificada la proporciona alguna resolución instalada. El sistema de resolución de dependencias lo instala. La desinstalación se acepta sin intervención del usuario."
+
+#. label for 'Sug' pattern key
+#: src/AddOnCreator.ycp:432
+msgid "Suggested patterns"
+msgstr "Patrones sugeridos"
+
+#. label for 'Fre' pattern key
+#: src/AddOnCreator.ycp:440
+msgid "Freshen"
+msgstr "Actualizar"
+
+#. help text for 'Fre' pattern key
+#: src/AddOnCreator.ycp:442
+msgid "The current pattern is only considered for installation if the pattern specified here is installed."
+msgstr "Sólo se considera instalar el patrón actual si el patrón especificado aquí está instalado."
+
+#. label for 'Ext' pattern key
+#: src/AddOnCreator.ycp:452
+msgid "Extends"
+msgstr "Extensiones"
+
+#. label for 'Inc' pattern key
+#: src/AddOnCreator.ycp:458
+msgid "Includes"
+msgstr "Incluye"
+
+#. label for 'Exnh pattern key
+#: src/AddOnCreator.ycp:464
+msgid "Enhanced patterns"
+msgstr "Patrones mejorados"
+
+#. label for 'Pcn' pattern key
+#: src/AddOnCreator.ycp:470
+msgid "Conflicting packages"
+msgstr "Paquetes en conflicto"
+
+#. label for 'Pob' pattern key
+#: src/AddOnCreator.ycp:476
+msgid "Obsolete packages"
+msgstr "Paquetes obsoletos"
+
+#. label for 'Pfr' pattern key
+#: src/AddOnCreator.ycp:482
+msgid "Freshened packages"
+msgstr "Paquetes reactualizados"
+
+#. label for 'Psp' pattern key
+#: src/AddOnCreator.ycp:488
+msgid "Supplemented packages"
+msgstr "Paquetes suplementarios"
+
+#. label for 'Pen' pattern key
+#: src/AddOnCreator.ycp:494
+msgid "Enhanced packages"
+msgstr "Paquetes mejorados"
+
+#. label for 'Pkg' key
+#. table header
+#: src/AddOnCreator.ycp:504 src/complex.ycp:1447
+msgid "Package"
+msgstr "Paquete"
+
+#. help text for 'Des' key
+#: src/AddOnCreator.ycp:510
+msgid "Multiple line package description."
+msgstr "Descripción del paquete en varias líneas."
+
+#. help text for 'Sum' key
+#: src/AddOnCreator.ycp:518
+msgid "The package summary (label), a one line description of the package."
+msgstr "Resumen del paquete (etiqueta) como descripción de una sola línea."
+
+#. label for 'Ins' key
+#: src/AddOnCreator.ycp:524
+msgid "Installation Notification"
+msgstr "Notificación de instalación"
+
+#. help text for 'Ins' key
+#: src/AddOnCreator.ycp:526
+msgid "An informal message shown to the user if the package is selected, such as a test version warning or a commercial license."
+msgstr "Mensaje informal que se muestra al usuario si se selecciona el paquete, como una advertencia de versión de prueba o una licencia comercial."
+
+#. label for 'Del' key
+#: src/AddOnCreator.ycp:531
+msgid "Deletion Notification"
+msgstr "Notificación de eliminación"
+
+#. help text for 'Del' key
+#: src/AddOnCreator.ycp:533
+msgid "An informal message shown to the user if the package is selected for deletion, such as a warning that the system is unusable without the package."
+msgstr "Mensaje informal que se muestra al usuario si el paquete se selecciona para su eliminación, como una advertencia de que el sistema no se puede utilizar sin el paquete."
+
+#. label for 'Eul' key
+#: src/AddOnCreator.ycp:538
+msgid "EULA"
+msgstr "Acuerdo de licencia del usuario final"
+
+#. help text for 'Eul' key
+#: src/AddOnCreator.ycp:540
+msgid "Text of the EULA. This text is displayed before the package installation. If the user does not accept the EULA, the package is not installed."
+msgstr "Texto del acuerdo de licencia del usuario final (EULA) que se muestra antes de instalar el paquete. Si el usuario no acepta el acuerdo, el paquete no se instala."
+
+#. label of key
+#: src/AddOnCreator.ycp:579
+msgid "Products that must be installed"
+msgstr "Productos que se deben instalar"
+
+#. help text for 'REQUIRES' key
+#: src/AddOnCreator.ycp:581
+msgid "<p>Resolvables that must be installed on the system to meet the needs of this product.</p>"
+msgstr "<p>Resoluciones que deben estar instaladas en el sistema  para complimentar las necesidades de este producto.</p>"
+
+#. label of PROVIDES key
+#: src/AddOnCreator.ycp:587
+msgid "Provided products"
+msgstr "Productos proporcionados"
+
+#. help text for 'PROVIDES' key
+#: src/AddOnCreator.ycp:589
+msgid "Capabilities this product provides. They can be used to match <b>requires</b> from others."
+msgstr "Características que provee este producto. Pueden usarse para comparar <b>requisitos</b> de otros."
+
+#. label of 'CONFLICTS' key
+#: src/AddOnCreator.ycp:595
+msgid "Conflicting products"
+msgstr "Productos en conflicto"
+
+#. help text for 'CONFLICTS' key
+#: src/AddOnCreator.ycp:597
+msgid "This resolvable cannot be installed if the specified resolvable or one that provides the capability is installed."
+msgstr "Esta resolución no se puede instalar si la resolución especificada u otra que proporciona la capacidad están instaladas."
+
+#. label of 'OBSOLETES' key
+#: src/AddOnCreator.ycp:603
+msgid "Products made obsolete"
+msgstr "Productos obsoletos"
+
+#. help text for 'OBSOLETES' key
+#: src/AddOnCreator.ycp:605
+msgid "When this resolvable is installed, it uninstalls any other resolvable with a name matching this keyword."
+msgstr "Cuando se instala esta resolución, se desinstala cualquier otra cuyo nombre coincida con esta palabra clave."
+
+#. label of 'RECOMMENDS' key
+#: src/AddOnCreator.ycp:611
+msgid "Recommended products"
+msgstr "Productos recomendados"
+
+#. help text for 'RECOMMENDS' key
+#: src/AddOnCreator.ycp:613
+msgid "A weak version of <b>requires</b>. An attempt is made to fulfill <b>RECOMMENDS</b>, but they are silently ignored if no match is possible."
+msgstr "Una versión débil de <b>requiere</b>. Se intenta cumplir con <b>recomendados</b>, pero se ignoran sin intervención del usuario si no se puede establecer ninguna coincidencia."
+
+#. label of 'SUGGESTS' key
+#: src/AddOnCreator.ycp:619
+msgid "Suggested products"
+msgstr "Productos sugeridos"
+
+#. table item label
+#: src/AddOnCreator.ycp:632
+msgid "The URL for release notes rpm"
+msgstr "La URL del rpm de las notas de la versión"
+
+# include/rc_dialogs.ycp:762
+#. table item label
+#: src/AddOnCreator.ycp:637
+msgid "Product description"
+msgstr "Descripción del producto"
+
+# clients/online_update_details.ycp:88 clients/online_update_select.ycp:112
+#. table item label
+#. input field label
+#: src/AddOnCreator.ycp:642 src/complex.ycp:1066
+msgid "Patch level"
+msgstr "Nivel del parche"
+
+#. table item label
+#: src/AddOnCreator.ycp:647
+msgid "Product summary"
+msgstr "Resumen del producto"
+
+#. table item label
+#: src/AddOnCreator.ycp:652
+msgid "Product line"
+msgstr "Linea del producto"
+
+#. help text for 'productline' key
+#: src/AddOnCreator.ycp:654
+msgid "A short name of the product which do not change between service packs and versions."
+msgstr "Un nombre corto del producto que no cambie entre versiones y paquetes de servicio."
+
+#. table item label
+#: src/AddOnCreator.ycp:659
+msgid "Update repository key"
+msgstr "Actualizar clave del repositorio"
+
+#. table item label
+#: src/AddOnCreator.ycp:664
+msgid "Type of media"
+msgstr "Tipo de medio"
+
+#. help text for media type
+#: src/AddOnCreator.ycp:666
+msgid "Type of media that will be used for target product. Possible values are: cd, ftp, dvd5, dvd9."
+msgstr "Tipo de medio que se usará para el producto final. Los valores posibles son: cd, ftp, dvd5, dvd9."
+
+#. table item label
+#: src/AddOnCreator.ycp:671
+msgid "Product flavor"
+msgstr "Versión del producto"
+
+#. help text for media type
+#: src/AddOnCreator.ycp:673
+msgid "Description of the flavor or variant of a product, e.g. DVD, FTP, Live"
+msgstr "Descripción de la versión o variante del producto, ej. DVD, FTP, Live"
+
+#. AddOnCreator Build dialog caption
+#: src/AddOnCreator.ycp:1439
+msgid "Generating Product Data"
+msgstr "Generando la información del producto"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:1443
+msgid "Find package directories"
+msgstr "Buscar directorio de paquetes"
+
+#. Progress step
+#: src/AddOnCreator.ycp:1447
+msgid "Looking for package directories..."
+msgstr "Buscando directorio de paquetes..."
+
+# include/nis_server/io.ycp:582
+# include/backup/ui.ycp:1286
+#
+#. Progress stage
+#: src/AddOnCreator.ycp:1453
+msgid "Check package architectures"
+msgstr "Comprobar arquitectura de paquetes"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:1455
+msgid "Generate content file defaults"
+msgstr "Generar archivo de contenidos por defecto"
+
+#
+# clients/inst_sw_select.ycp:153
+# clients/inst_sw_select.ycp:212
+# include/backup/ui.ycp:1289
+#
+#. Progress step
+#: src/AddOnCreator.ycp:1459
+msgid "Checking package architectures..."
+msgstr "Comprobando arquitectura de paquetes..."
+
+#. Progress step
+#: src/AddOnCreator.ycp:1461
+msgid "Generating content file defaults..."
+msgstr "Generando archivo de contenidos por defecto..."
+
+#. Progress stage
+#. Progress step
+#: src/AddOnCreator.ycp:1466 src/AddOnCreator.ycp:1470
+msgid "Generate package descriptions"
+msgstr "Generar descripciones de paquetes"
+
+#. help text
+#: src/AddOnCreator.ycp:1476
+msgid "<b>Wait while generating data for add-on...</b><br/>\n"
+msgstr "<b>Espere mientras se generan los datos para el complemento...</b><br/>\n"
+
+#. error report
+#: src/AddOnCreator.ycp:2234
+msgid ""
+"Failed to install obs-productconverter package.\n"
+"Release package will not be generated."
+msgstr ""
+"No se ha podido instalar el paquete obs-productconverter.\n"
+"El paquete de revisión no se generará."
+
+#. error popup
+#: src/AddOnCreator.ycp:2359
+#, ycp-format
+msgid ""
+"Build of release package failed with\n"
+"'%1'."
+msgstr ""
+"La construcción del paquete de revisión falló con\n"
+"'%1'."
+
+#. error label
+#: src/AddOnCreator.ycp:2616
+msgid "Signing of the product failed."
+msgstr "Falló la firma del producto."
+
+#. checkbox label
+#: src/AddOnCreator.ycp:2626
+msgid "Try again with different passphrase"
+msgstr "Intente de nuevo con una palabra clave diferente"
+
+#: src/AddOnCreator.ycp:3033
+#, ycp-format
+msgid ""
+"Enter passphrase for GPG key %1\n"
+"(%2)"
+msgstr ""
+"Frase clave para llave GPG %1\n"
+"(%2)"
+
+#. AddOnCreator Build dialog caption
+#: src/AddOnCreator.ycp:3047
+msgid "Creating the Add-On"
+msgstr "Creando el complemento"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3051
+msgid "Write the content file"
+msgstr "Escribir el archivo de contenido"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3053
+msgid "Create the structure of the add-on"
+msgstr "Crear la estructura del complemento"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3055
+msgid "Write the patterns"
+msgstr "Escribir los patrones"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3057
+msgid "Copy the packages"
+msgstr "Copiar los paquetes"
+
+# clients/inst_sw_details.ycp:342 clients/inst_sw_select.ycp:318
+# clients/inst_sw_details.ycp:801 clients/inst_sw_select.ycp:393
+#. Progress stage
+#: src/AddOnCreator.ycp:3059
+msgid "Generate the release package"
+msgstr "Generar paquete de distribución"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3061
+msgid "Create MD5 sums"
+msgstr "Crear sumas MD5"
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3063
+msgid "Sign resulting product"
+msgstr "Firmar producto resultante"
+
+#. Progress step
+#: src/AddOnCreator.ycp:3067
+msgid "Writing the content file..."
+msgstr "Escribiendo el archivo de contenido..."
+
+#. Progress step
+#: src/AddOnCreator.ycp:3069
+msgid "Creating the structure of the add-on..."
+msgstr "Creando la estructura del complemento..."
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3071
+msgid "Writing the patterns..."
+msgstr "Escribiendo los patrones..."
+
+#. Progress step
+#: src/AddOnCreator.ycp:3073
+msgid "Copying the packages..."
+msgstr "Copiando los paquetes..."
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3075
+msgid "Generating the release package..."
+msgstr "Generando el paquete de distribución..."
+
+#. Progress step
+#: src/AddOnCreator.ycp:3077
+msgid "Creating MD5 sums..."
+msgstr "Creando sumas MD5..."
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3079
+msgid "Signing resulting product..."
+msgstr "Firmando producto..."
+
+#. Progress stage
+#: src/AddOnCreator.ycp:3085
+msgid "Create ISO image"
+msgstr "Crear imagen ISO"
+
+#. Progress step
+#: src/AddOnCreator.ycp:3087
+msgid "Creating ISO image..."
+msgstr "Creando imagen ISO..."
+
+#. Progress finished
+#: src/AddOnCreator.ycp:3090
+msgid "Finished"
+msgstr "Terminado"
+
+#. Error message (do not translate 'content'
+#: src/AddOnCreator.ycp:3131
+msgid "Cannot write content file."
+msgstr "No se puede escribir el archivo de contenido."
+
+#. Error message
+#: src/AddOnCreator.ycp:3147
+msgid "Cannot create the output directory structure."
+msgstr "No se puede crear la estructura del directorio de salida."
+
+#. error message, %1 is path
+#: src/add-on-creator.ycp:53
+#, ycp-format
+msgid "File %1 does not exist."
+msgstr "El archivo %1 no existe."
+
+#. error message, %1 is path
+#: src/add-on-creator.ycp:58
+#, ycp-format
+msgid "Directory %1 does not exist."
+msgstr "El directorio %1 no existe."
+
+#. question on command line
+#: src/add-on-creator.ycp:105
+#, ycp-format
+msgid "Passphrase for key %1:"
+msgstr "Contraseña para la clave %1:"
+
+#. error message
+#: src/add-on-creator.ycp:123
+msgid "Path to output directory is missing."
+msgstr "Falta la ruta al directorio de salida."
+
+#. error message, missing tool
+#: src/add-on-creator.ycp:264
+msgid "/usr/bin/unzip does not exists"
+msgstr "/usr/bin/unzip no existe"
+
+#. error message
+#: src/add-on-creator.ycp:378
+msgid "Path to directory with packages is missing."
+msgstr "Falta la ruta al directorio con los paquetes."
+
+#. error message
+#: src/add-on-creator.ycp:389
+msgid "Path to content file is missing."
+msgstr "Falta la ruta al archivo de contenido."
+
+#. error message
+#: src/add-on-creator.ycp:406
+msgid "Path to existing Add-On is missing."
+msgstr "Falta la ruta al directorio de complementos existente."
+
+#. error message
+#: src/add-on-creator.ycp:425
+msgid "Path to directory with Add-On is missing."
+msgstr "Falta la ruta al directorio con complementos."
+
+#. command line summary, %1 is order, %2 product name
+#: src/add-on-creator.ycp:461
+#, ycp-format
+msgid "(%1) Product Name: %2"
+msgstr "(%1) Nombre del producto: %2"
+
+# clients/online_update.ycp:251
+#. command line summary
+#: src/add-on-creator.ycp:464
+#, ycp-format
+msgid "\tVersion: %1"
+msgstr "\tVersión: %1"
+
+#. command line summary
+#: src/add-on-creator.ycp:466
+#, ycp-format
+msgid "\tInput directory: %1"
+msgstr "\tDirectorio de entrada: %1"
+
+#: src/add-on-creator.ycp:468
+#, ycp-format
+msgid "\tOutput directory: %1"
+msgstr "\tDirectorio de salida: %1"
+
+#. command line summary, %1 is comma-separated list
+#: src/add-on-creator.ycp:472
+#, ycp-format
+msgid "\tPatterns: %1"
+msgstr "\tPatrones: %1"
+
+#. command line message, do not translate 'create', 'clone'
+#: src/add-on-creator.ycp:490
+msgid "There is no add-on product configuration present. Create a new one using the 'create' or 'clone' commands."
+msgstr "No hay ninguna configuración presente para productos adicionales. Cree una nueva usando las ordenes 'create' o 'clone'."
+
+#. error message
+#: src/add-on-creator.ycp:501
+msgid "Specify the add-on product that should be built."
+msgstr "Indique el producto adicional que desea generar."
+
+#. command line message
+#: src/add-on-creator.ycp:541
+msgid "There is no add-on product configuration present."
+msgstr "No hay ninguna configuración para productos adicionales."
+
+#. error message
+#: src/add-on-creator.ycp:548
+msgid "Specify the add-on product configuration that should be deleted."
+msgstr "Indique la configuración del producto adicional que desea eliminar."
+
+#. Command line help text for the add-on-creator module
+#: src/add-on-creator.ycp:559
+msgid "Creator for add-on products"
+msgstr "Creador de complementos"
+
+#. command line help text for 'create' action
+#: src/add-on-creator.ycp:567
+msgid "Create and build a new add-on product."
+msgstr "Crear y generar un nuevo producto adicional."
+
+#. command line help text for 'clone' action
+#: src/add-on-creator.ycp:572
+msgid "Create and build a new add-on product based on an existing one."
+msgstr "Crear y generar un nuevo producto adicional basado en uno existente."
+
+#. command line help text for 'sign' action
+#: src/add-on-creator.ycp:577
+msgid "Sign unsigned Add-On Product"
+msgstr "Firmar producto adicional no firmado"
+
+#. command line help text for 'list' action
+#: src/add-on-creator.ycp:582
+msgid "List available add-on product configurations."
+msgstr "Lista de configuraciones disponibles."
+
+#. command line help text for 'create' action
+#: src/add-on-creator.ycp:587
+msgid "Build an add-on product from the selected configuration."
+msgstr "Generar un producto adicional usando la configuración seleccionada."
+
+#. command line help text for 'create' action
+#: src/add-on-creator.ycp:592
+msgid "Delete the selected add-on product configuration."
+msgstr "Eliminar configuración seleccionada."
+
+#. command line help text for 'rpm_dir' option
+#: src/add-on-creator.ycp:598
+msgid "Path to directory with packages"
+msgstr "Ruta al directorio con paquetes"
+
+#. command line help text for 'content' option (do not translate 'content', it's a name)
+#: src/add-on-creator.ycp:603
+msgid "Path to content file"
+msgstr "Ruta al archivo de contenido"
+
+#. command line help text for 'existing' option
+#: src/add-on-creator.ycp:608
+msgid "Path to directory with existing Add-On Product"
+msgstr "Ruta al directorio de un producto adicional existente"
+
+#. command line help text for 'generate_descriptions' option
+#: src/add-on-creator.ycp:613
+msgid "Generate new package descriptions (do not copy)"
+msgstr "Generar nuevas descripciones de paquetes (no copiar)"
+
+#. command line help text for 'package_descriptions_dir' option
+#: src/add-on-creator.ycp:617
+msgid "Path to directory with package descriptions"
+msgstr "Ruta al directorio con descripciones de paquetes"
+
+#. command line help text for 'patterns_dir' option
+#: src/add-on-creator.ycp:622
+msgid "Path to directory with patterns definitions"
+msgstr "Ruta al directorio con descripciones de patrones"
+
+#. command line help text for 'output_dir' option
+#: src/add-on-creator.ycp:627
+msgid "Path to the output directory"
+msgstr "Ruta del directorio de salida"
+
+#. command line help text for 'create_iso' option
+#: src/add-on-creator.ycp:632
+msgid "Create the ISO image"
+msgstr "Crear la imagen ISO"
+
+#. command line help text for 'iso_name' option
+#: src/add-on-creator.ycp:636
+msgid "Name of the output ISO image"
+msgstr "Nombre de la imagen ISO resultante"
+
+#. command line help text for 'output_dir' option
+#: src/add-on-creator.ycp:641
+msgid "Path to the output directory for ISO image"
+msgstr "Ruta al directorio de salida para la imagen ISO"
+
+#. command line help text for 'do_not_sign' option
+#: src/add-on-creator.ycp:646
+msgid "Do not sign the product"
+msgstr "No firmar el producto"
+
+#. command line help text for 'gpg_key' option
+#: src/add-on-creator.ycp:650
+msgid "GPG key ID used to sign a product"
+msgstr "ID de la llave GPG usada para firmar un producto"
+
+#. command line help text for 'passphrase' option
+#: src/add-on-creator.ycp:655
+msgid "Passphrase to unlock GPG key"
+msgstr "Contraseña para desbloquear la llave GPG"
+
+#. command line help text for 'passphrase_file' option
+#: src/add-on-creator.ycp:660
+msgid "Path to file with the passphrase for GPG key"
+msgstr "Ruta del archivo con la contraseña para la llave GPG"
+
+#. command line help text for 'passphrase' option
+#: src/add-on-creator.ycp:665
+msgid "Resign all packages with selected key"
+msgstr "Volver a firmar todos los paquetes con la llave seleccionada"
+
+#. command line help text for 'workflow' option
+#: src/add-on-creator.ycp:669
+msgid "Path to workflow definition file (installation.xml)"
+msgstr "Ruta al archivo de definición de flujo de trabajo (installation.xml)"
+
+#. command line help text for 'y2update' option
+#: src/add-on-creator.ycp:674
+msgid "Path to workflow dialogs archive (y2update.tgz)"
+msgstr "Ruta al archivo de diálogos de flujo de trabajo (y2update.tgz)"
+
+#. command line help text for 'y2update_packages_dir' option
+#: src/add-on-creator.ycp:679
+msgid "Path to directory with YaST packages to form the workflow"
+msgstr "Ruta al directorio con paquetes YaST para formar el flujo de trabajo"
+
+#. command line help text for 'license' option
+#: src/add-on-creator.ycp:684
+msgid "Path to file with license texts (license.zip or license.tar.gz)"
+msgstr "Ruta al archivo con los textos de la licencia (license.zip o license.tar.gz)"
+
+#. command line help text for 'info' option
+#: src/add-on-creator.ycp:689
+msgid "Path to file with 'info' text (media.1/info.txt)"
+msgstr "Ruta al archivo con el texto 'info'  (media.1/info.txt)"
+
+#. command line help text for 'extra_prov' option
+#: src/add-on-creator.ycp:694
+msgid "Path to file with additional dependencies (EXTRA_PROV)"
+msgstr "Ruta al archivo con dependencias adicionales (EXTRA_PROV)"
+
+#. command line help text for 'addon-dir' option
+#: src/add-on-creator.ycp:699
+msgid "Path to directory with Add-On Product"
+msgstr "Ruta al directorio con el producto adicional"
+
+#. command line help text for 'do_not_build' option
+#: src/add-on-creator.ycp:704
+msgid "Do not build the product, only save new configuration"
+msgstr "No generar el producto, sólo guardar la configuración"
+
+#. help text for 'number' option; do not translate 'list'
+#: src/add-on-creator.ycp:708
+msgid "Number of the selected add-on (see 'list' command for product numbers)."
+msgstr "Número de adicionales seleccionados (use el comando 'list'  para el número de productos)."
+
+#. command line help text for 'changelog' option
+#: src/add-on-creator.ycp:713
+msgid "Generate a Changelog file."
+msgstr "Generar archivo de registro de cambios."
+
+# clients/inst_sw_details.ycp:342 clients/inst_sw_select.ycp:318
+# clients/inst_sw_details.ycp:801 clients/inst_sw_select.ycp:393
+#. command line help text for 'no_release_package' option
+#: src/add-on-creator.ycp:717
+msgid "Do not generate the release package"
+msgstr "No generar el paquete de distribución"
+
+#. command line help text for 'product_file' option
+#: src/add-on-creator.ycp:721
+msgid "Path to file with the product description (*.prod)"
+msgstr "Ruta al archivo con la descripción de producto (*.prod)"
+
+#. dialog caption
+#: src/complex.ycp:111
+msgid "Add-On Creator Configuration Overview"
+msgstr "Resumen de configuración del producto"
+
+#. summary item
+#: src/complex.ycp:132
+#, ycp-format
+msgid "Input directory: %1<br>"
+msgstr "Directorio de entrada: %1<br>"
+
+#. summary item
+#: src/complex.ycp:134
+#, ycp-format
+msgid "Output directory: %1<br>"
+msgstr "Directorio de salida: %1<br>"
+
+#. summary item, %1 is comma-separated list
+#: src/complex.ycp:138
+#, ycp-format
+msgid "Patterns: %1"
+msgstr "Patrones: %1"
+
+#. help text
+#: src/complex.ycp:145
+msgid "<p>Start creating a new add-on product configuration with <b>Add</b>.</p>"
+msgstr "<p>Iniciar la creación de una nueva configuración con <b>Agregar</b>.</p>"
+
+# clients/ui_helps.ycp:57
+#. help text
+#: src/complex.ycp:148
+msgid "<p>Use <b>Edit</b> to modify the selected add-on product configuration.</p>"
+msgstr "<p>Utilice <b>Editar</b> para modificar la configuración del producto complementario seleccionado.</p>"
+
+#. help text
+#: src/complex.ycp:151
+msgid "<p>Delete the selected configuration using <b>Delete</b>.</p>"
+msgstr "<p>Elimina la configuración seleccionada usando <b>Borrar</b>.</p>"
+
+#. help text
+#: src/complex.ycp:154
+msgid "<p>Build the fresh add-on product based on the selected configuration with <b>Build</b>.</p>"
+msgstr "<p>Genere un nuevo producto basado en la configuración seleccionada usando <b>Generar</b>.</p>"
+
+#. table header item
+#. summary header
+#: src/complex.ycp:159 src/complex.ycp:2011
+msgid "Product Name"
+msgstr "Nombre del producto"
+
+#. push button label
+#: src/complex.ycp:172
+msgid "&Build"
+msgstr "&Generar"
+
+# include/nis_server/ui.ycp:45
+#. yes/no popup
+#: src/complex.ycp:224
+#, ycp-format
+msgid "Really delete configuration \"%1\"?"
+msgstr "¿Realmente desea eliminar la configuración \"%1\"?"
+
+#. dialog caption
+#: src/complex.ycp:280 src/complex.ycp:402
+msgid "Add-On Product Creator"
+msgstr "Creador de productos adicionales"
+
+#. radio button label
+#: src/complex.ycp:288
+msgid "Create an Add-On &from the Beginning"
+msgstr "Crear complemento &desde el principio"
+
+#. radio button label
+#: src/complex.ycp:292
+msgid "Create an Add-On Based on an &Existing Add-On"
+msgstr "Crear complemento a partir de uno &existente"
+
+#. text entry label
+#: src/complex.ycp:299
+msgid "&Path to Directory of the Existing Add-On Product"
+msgstr "&Ruta al directorio del producto complementario existente"
+
+#. checkbox label
+#: src/complex.ycp:311
+msgid "&Generate Package Descriptions"
+msgstr "&Generar descripciones de paquetes"
+
+#. textentry label
+#: src/complex.ycp:408
+msgid "&Add-On Product Label"
+msgstr "Etiqueta del producto &adicional"
+
+#. textentry label
+#. text entry label
+#: src/complex.ycp:410 src/patterns.ycp:70
+msgid "&Version"
+msgstr "&Versión"
+
+#: src/complex.ycp:414
+msgid "Required Product"
+msgstr "Producto requerido"
+
+#. radio button label
+#: src/complex.ycp:420
+msgid "SUSE &Linux Enterprise Server 11"
+msgstr "SUSE &Linux Enterprise Server 11"
+
+#. radio button label
+#: src/complex.ycp:424
+msgid "SUSE L&inux Enterprise Desktop 11"
+msgstr "SUSE L&inux Enterprise Desktop 11"
+
+#. radio button label
+#: src/complex.ycp:428
+msgid "S&USE Linux Enterprise 11"
+msgstr "S&USE Linux Enterprise 11"
+
+#. radio button label
+#: src/complex.ycp:432
+msgid "openSUSE &11.2"
+msgstr "OpenSUSE &11.2"
+
+#. radio button label
+#: src/complex.ycp:437
+msgid "&Other"
+msgstr "&Otros"
+
+#. text entry label
+#: src/complex.ycp:447
+msgid "&Path to Directory with Add-On Packages"
+msgstr "Ruta al directorio con &paquetes adicionales"
+
+#. text entry label
+#: src/complex.ycp:457
+msgid "Path to Directory with Re&quired Product Packages"
+msgstr "Ruta al directorio con paquetes de productos re&queridos"
+
+#. error popup
+#: src/complex.ycp:522 src/complex.ycp:529
+#, ycp-format
+msgid "Directory %1 is not accessible."
+msgstr "No se puede acceder al directorio %1."
+
+#. error popup (input validation failed)
+#: src/complex.ycp:597
+msgid ""
+"The value of NAME may contain only\n"
+"letters, numbers, and the characters \".~_-\"."
+msgstr ""
+"El valor de NAME sólo puede incluir\n"
+"letras, números y los caracteres \".~_-\"."
+
+#: src/complex.ycp:618
+msgid "LABEL"
+msgstr "Etiqueta"
+
+#. combo label
+#: src/complex.ycp:620
+msgid "La&nguage Code"
+msgstr "Código de idio&ma"
+
+#. textentry label
+#: src/complex.ycp:622 src/complex.ycp:1275 src/patterns.ycp:120
+msgid "&Value"
+msgstr "&Valor"
+
+#. Heading for help popup window
+#: src/complex.ycp:643 src/complex.ycp:1185 src/patterns.ycp:178
+msgid "Help"
+msgstr "Ayuda"
+
+#. dialog caption - 'content' is file name
+#: src/complex.ycp:667
+msgid "Product Definition"
+msgstr "Definición de producto"
+
+# include/backup/ui.ycp:1661
+#. label
+#: src/complex.ycp:730
+msgid "content File"
+msgstr "Archivo de contenido"
+
+#. table header
+#: src/complex.ycp:733 src/complex.ycp:761
+msgid "Key"
+msgstr "Clave"
+
+#. table header
+#. table header 2/2
+#: src/complex.ycp:735 src/complex.ycp:763 src/complex.ycp:1454
+#: src/patterns.ycp:269
+msgid "Value"
+msgstr "Valor"
+
+#. push button label
+#. button label
+#: src/complex.ycp:745 src/dialogs.ycp:147 src/dialogs.ycp:381
+#: src/dialogs.ycp:583
+msgid "Im&port"
+msgstr "&Importar"
+
+#. checkbox label
+#: src/complex.ycp:749
+msgid "Show &Only Required Keywords"
+msgstr "M&ostrar sólo palabras clave requeridas"
+
+# clients/inst_sw_details.ycp:342 clients/inst_sw_select.ycp:318
+# clients/inst_sw_details.ycp:801 clients/inst_sw_select.ycp:393
+#. check box label
+#: src/complex.ycp:755
+msgid "Generate Release Package"
+msgstr "Generar paquete de distribución"
+
+#. label
+#: src/complex.ycp:758
+msgid "Product File"
+msgstr "Archivo de producto"
+
+#. push button label
+#. button label
+#: src/complex.ycp:772 src/complex.ycp:1307 src/complex.ycp:1440
+#: src/dialogs.ycp:131 src/dialogs.ycp:365 src/dialogs.ycp:571
+#: src/patterns.ycp:261
+msgid "I&mport"
+msgstr "I&mportar"
+
+#. popup for file selection dialog
+#: src/complex.ycp:829
+msgid "Choose the Existing Content File"
+msgstr "Elegir el archivo content existente"
+
+#. popup for file selection dialog
+#: src/complex.ycp:876
+msgid "Choose the Existing Product File"
+msgstr "Elegir el archivo de producto existente"
+
+#. error popup
+#: src/complex.ycp:895
+#, ycp-format
+msgid ""
+"Enter the values for these items:\n"
+"%1"
+msgstr ""
+"Especifique los valores de estos elementos:\n"
+"%1"
+
+#. table item
+#: src/complex.ycp:949
+msgid "Yes"
+msgstr "Sí"
+
+#. table item
+#: src/complex.ycp:951
+msgid "No"
+msgstr "No"
+
+#. textentry label
+#: src/complex.ycp:971
+#, ycp-format
+msgid "Value of \"%1\""
+msgstr "Valor de \"%1\""
+
+#. input field label
+#: src/complex.ycp:1031
+msgid "Name"
+msgstr "Nombre"
+
+# clients/hwinfo.ycp:120
+# clients/hwinfo.ycp:120
+# clients/hwinfo.ycp:120
+#: src/complex.ycp:1041
+msgid "Flag"
+msgstr "Bandera"
+
+#. combo box item
+#: src/complex.ycp:1043
+msgid "Equal"
+msgstr "Igual"
+
+#. combo box item
+#: src/complex.ycp:1045
+msgid "Greater than"
+msgstr "Mayor que"
+
+# classnames.ycp:120
+# classnames.ycp:120
+# classnames.ycp:120
+#. combo box item
+#: src/complex.ycp:1047
+msgid "Lower than"
+msgstr "Menor que"
+
+#. input field label
+#: src/complex.ycp:1060
+msgid "Flavor"
+msgstr "Versión"
+
+#. MultiSelectionBox label
+#: src/complex.ycp:1145
+msgid "&Packages"
+msgstr "&Paquetes"
+
+#. check box label
+#: src/complex.ycp:1148
+msgid "Select or Deselect &All"
+msgstr "Seleccion&ar o deseleccionar todo"
+
+#
+# include/network/lan/address.ycp:111
+#. popup for file selection dialog
+#: src/complex.ycp:1332
+msgid "Choose the file with the text to be imported"
+msgstr "Seleccionar el archivo con el texto a importar"
+
+#. dialog caption
+#: src/complex.ycp:1363
+msgid "Package Descriptions"
+msgstr "Descripciones de paquetes"
+
+#. combobox label
+#: src/complex.ycp:1404 src/complex.ycp:1429
+msgid "Description File &Language Code"
+msgstr "&Código de idioma del archivo de descripciones"
+
+#. button label
+#: src/complex.ycp:1412 src/complex.ycp:1437
+msgid "Add Lan&guage"
+msgstr "Añadir i&dioma"
+
+#. table header 1/2
+#: src/complex.ycp:1452 src/patterns.ycp:267
+msgid "Attribute"
+msgstr "Atributo"
+
+#. textentry label
+#: src/complex.ycp:1467
+msgid "Location of the File with Additional &Dependencies"
+msgstr "Ubicación del archivo con &dependencias adicionales"
+
+#. popup for file selection dialog
+#: src/complex.ycp:1535
+msgid "Choose the New Package Description File"
+msgstr "Elegir el nuevo archivo de descripciones de paquetes"
+
+#. error popup (correct name is 'packages.*')
+#: src/complex.ycp:1545
+msgid ""
+"The package description file is named incorrectly.\n"
+"Choose another one."
+msgstr ""
+"El nombre del archivo de descripciones de paquetes no es correcto.\n"
+"Elija otro."
+
+#. popup for file selection dialog
+#: src/complex.ycp:1642
+msgid "Choose the Path to EXTRA_PROV File"
+msgstr "Elegir la ruta al archivo EXTRA_PROV"
+
+# include/nis_server/io.ycp:367
+#. error popup
+#: src/complex.ycp:1653
+#, ycp-format
+msgid ""
+"The file '%1' does not exist.\n"
+"Choose another one."
+msgstr ""
+"El archivo '%1' no existe.\n"
+"Elija otro."
+
+#. frame label
+#: src/complex.ycp:1693
+msgid "Key Type"
+msgstr "Tipo de clave"
+
+#. radiobutton label (key type)
+#: src/complex.ycp:1697
+msgid "&DSA"
+msgstr "&DSA"
+
+#. radiobutton label (key type)
+#: src/complex.ycp:1700
+msgid "&RSA"
+msgstr "&RSA"
+
+#. textentry label
+#: src/complex.ycp:1705
+msgid "Key &Size"
+msgstr "&Tamaño de clave"
+
+#. textentry label
+#: src/complex.ycp:1708
+msgid "E&xpiration Date"
+msgstr "Fecha de ex&piración"
+
+#. textentry label
+#: src/complex.ycp:1710
+msgid "&Name"
+msgstr "&Nombre"
+
+#. textentry label
+#: src/complex.ycp:1712
+msgid "Commen&t"
+msgstr "Comen&tario"
+
+#. textentry label
+#: src/complex.ycp:1715
+msgid "E-&Mail Address"
+msgstr "&Dirección de correo electrónico"
+
+#. password widget label
+#. password entry label
+#: src/complex.ycp:1717 src/complex.ycp:1804
+msgid "&Passphrase"
+msgstr "&Contraseña"
+
+#. dialog caption
+#: src/complex.ycp:1723
+msgid "New GPG Key"
+msgstr "Nueva clave GPG"
+
+#. error popup (see Name, Comment, Email Adress text entries
+#: src/complex.ycp:1752
+msgid ""
+"Name, comment, and e-mail address values are empty.\n"
+"You must enter at least one of them to provide user identification.\n"
+msgstr ""
+"Faltan los valores de nombre, comentario y dirección de correo electrónico.\n"
+"Debe especificar al menos uno de ellos para identificar al usuario.\n"
+
+#. feedback popup headline
+#: src/complex.ycp:1758
+msgid "Generating Primary Key Pair"
+msgstr "Generando par de claves primarias"
+
+#. feedback message
+#: src/complex.ycp:1760
+msgid ""
+"If it takes too long, do some other work to give\n"
+"the OS a chance to collect more entropy.\n"
+msgstr ""
+"Si tarda demasiado, realice alguna otra tarea para\n"
+"aumentar la entropía del sistema operativo.\n"
+
+#. dialog caption
+#: src/complex.ycp:1781
+msgid "Signing the Add-On Product"
+msgstr "Firmando el producto adicional"
+
+#. combo box label
+#: src/complex.ycp:1795
+msgid "GPG &Key ID"
+msgstr "ID de &clave GPG"
+
+#. button label
+#: src/complex.ycp:1800
+msgid "&Create..."
+msgstr "&Crear..."
+
+#. password entry label (verification)
+#: src/complex.ycp:1807
+msgid "&Passphrase Verification"
+msgstr "Verificación de &Contraseña"
+
+#: src/complex.ycp:1811
+msgid "Re&sign all packages with selected key"
+msgstr "&Volver a firmar todos los paquetes con la llave seleccionada"
+
+#. error message
+#: src/complex.ycp:1844
+msgid "Passwords do not match. Try again."
+msgstr "Las contraseñas no coinciden. Inténtelo de nuevo."
+
+#. dialog caption
+#: src/complex.ycp:1879
+msgid "Output Settings"
+msgstr "Configuración de salida"
+
+#. text entry label
+#: src/complex.ycp:1897
+msgid "P&ath to Output Directory"
+msgstr "Ví&a al directorio de salida"
+
+#. check box label
+#: src/complex.ycp:1905
+msgid "Create &ISO Image"
+msgstr "Crear imagen &ISO"
+
+#. text entry label
+#: src/complex.ycp:1909
+msgid "Image File Name"
+msgstr "Nombre del archivo de imagen"
+
+#. check box label
+#: src/complex.ycp:1914
+msgid "&Generate Changelog"
+msgstr "&Generar registro de cambios"
+
+#. button label
+#: src/complex.ycp:1919
+msgid "&Configure Workflow..."
+msgstr "&Configurar flujo de trabajo..."
+
+#. button label
+#: src/complex.ycp:1921
+msgid "O&ptional Files..."
+msgstr "Archivos o&pcionales..."
+
+#. error popup
+#: src/complex.ycp:1959
+msgid "Enter the path to the directory for the add-on."
+msgstr "Especifique la ruta al directorio del complemento."
+
+#. dialog caption
+#: src/complex.ycp:2004
+msgid "Overview"
+msgstr "Resumen"
+
+#. summary header
+#: src/complex.ycp:2015
+msgid "Patterns"
+msgstr "Patrones"
+
+#. summary header
+#: src/complex.ycp:2023
+msgid "Input Directory"
+msgstr "Directorio de entrada"
+
+#. summary header
+#: src/complex.ycp:2027
+msgid "Output Directory"
+msgstr "Directorio de salida"
+
+#. summary line
+#: src/complex.ycp:2034
+msgid "Creating an ISO image in the output directory"
+msgstr "Creando imagen ISO en el directorio de salida"
+
+#. popup message
+#: src/dialogs.ycp:74
+msgid ""
+"A file with this name already exists.\n"
+"Choose a different one."
+msgstr ""
+"Ya existe un archivo con este nombre.\n"
+"Elija otro."
+
+#. dialog caption
+#: src/dialogs.ycp:94
+msgid "Expert Settings"
+msgstr "Configuración avanzada"
+
+#: src/dialogs.ycp:119
+msgid "&info.txt File"
+msgstr "Archivo &info.txt"
+
+#. frame label
+#: src/dialogs.ycp:122
+msgid "&License Files"
+msgstr "Archivos de &licencia"
+
+#. frame label
+#: src/dialogs.ycp:138
+msgid "README Files"
+msgstr "Archivos README"
+
+#. textentry label
+#: src/dialogs.ycp:177
+msgid "&Name of the New README File"
+msgstr "&Nombre del nuevo archivo README"
+
+#. popup for file selection dialog
+#: src/dialogs.ycp:193
+msgid "Choose the New README File"
+msgstr "Elegir nombre del nuevo archivo README"
+
+#. textentry label
+#: src/dialogs.ycp:236
+msgid "&Language for the New License File"
+msgstr "&Idioma del nuevo archivo de licencia"
+
+#. popup for file selection dialog
+#: src/dialogs.ycp:255
+msgid "Choose the New License File"
+msgstr "Elegir el nuevo archivo de licencia"
+
+#. dialog caption
+#: src/dialogs.ycp:329
+msgid "Expert Settings, Part 2"
+msgstr "Configuración avanzada, parte 2"
+
+#. frame label
+#: src/dialogs.ycp:356
+msgid "&COPYING Files"
+msgstr "Archivos &COPYING"
+
+#. frame label
+#: src/dialogs.ycp:372
+msgid "COPY&RIGHT Files"
+msgstr "Archivos COPY&RIGHT"
+
+#. textentry label
+#: src/dialogs.ycp:412
+msgid "&Language for the New COPYRIGHT File"
+msgstr "&Idioma del nuevo archivo COPYRIGHT"
+
+#. popup for file selection dialog
+#: src/dialogs.ycp:430
+msgid "Choose the New COPYRIGHT File"
+msgstr "Elegir el nuevo archivo COPYRIGHT"
+
+#. textentry label
+#: src/dialogs.ycp:471
+msgid "&Language for the New COPYING File"
+msgstr "&Idioma para el nuevo archivo COPYING"
+
+#. popup for file selection dialog
+#: src/dialogs.ycp:489
+msgid "Choose the New COPYING File"
+msgstr "Elegir el nuevo archivo COPYING"
+
+#. dialog caption
+#: src/dialogs.ycp:556
+msgid "Expert Settings, Part 3"
+msgstr "Configuración avanzada, parte 3"
+
+#: src/dialogs.ycp:568
+msgid "products"
+msgstr "productos"
+
+#: src/dialogs.ycp:574
+msgid "patches"
+msgstr "Parches"
+
+#. button label
+#: src/dialogs.ycp:577
+msgid "&Import"
+msgstr "&Importar"
+
+#: src/dialogs.ycp:580
+msgid "media"
+msgstr "medio"
+
+#. dialog caption
+#: src/dialogs.ycp:618
+msgid "Workflow Configuration"
+msgstr "Configuración de flujo de trabajo"
+
+#. textentry label
+#: src/dialogs.ycp:633
+msgid "&Location of the File with the Workflow Description"
+msgstr "&Ubicación del archivo de descripción de flujo de trabajo"
+
+#. radiobutton label
+#: src/dialogs.ycp:643
+msgid "&No Additional YaST Modules"
+msgstr "Si&n módulos de YaST adicionales"
+
+#. radiobutton label
+#: src/dialogs.ycp:648
+msgid "&Path to y2update.tgz"
+msgstr "&Ruta a y2update.tgz"
+
+#. pushbutton label
+#: src/dialogs.ycp:655
+msgid "&Browse"
+msgstr "&Examinar"
+
+#. radiobutton label
+#: src/dialogs.ycp:659
+msgid "&Import the Packages"
+msgstr "&Importar los paquetes"
+
+#. table header
+#: src/dialogs.ycp:665
+msgid "YaST Module Package"
+msgstr "Paquete de módulos de YaST"
+
+#. popup for file selection dialog
+#: src/dialogs.ycp:701
+msgid "Choose the installation.xml File"
+msgstr "Elegir el archivo installation.xml"
+
+#. popup for file selection dialog
+#: src/dialogs.ycp:723
+msgid "Choose the Path to the y2update.tgz File"
+msgstr "Elegir la ruta al archivo y2update.tgz"
+
+#. popup for file selection dialog
+#: src/dialogs.ycp:736
+msgid "Choose the YaST Module Package"
+msgstr "Elegir el paquete de módulos de YaST"
+
+#. Build dialog help
+#: src/helps.ycp:40
+msgid ""
+"<p><b><big>Creating the Add-On</big></b><br>\n"
+"Please wait...<br></p>\n"
+msgstr ""
+"<p><b><big>Creando el complemento</big></b><br>\n"
+"Espere...<br></p>\n"
+
+#. Write dialog help
+#: src/helps.ycp:45
+msgid ""
+"<p>Writing the add-on configurations<br>\n"
+"Please wait...<br></p>\n"
+msgstr ""
+"<p>Escribiendo configuraciones<br>\n"
+"Por favor, espere...<br></p>\n"
+
+#. help text for start menu
+#: src/helps.ycp:49
+msgid "<p>This module offers guidance for the creation of an add-on product.</p>"
+msgstr "<p>Este módulo ofrece ayuda para crear un producto adicional.</p>"
+
+#. help text for start menu, cont.
+#: src/helps.ycp:52
+msgid "<p>Select how to create the new add-on product. You can create it from the beginning or base it on an existing product.</p>"
+msgstr "<p>Seleccione el modo en que desea crear el nuevo producto adicional. Puede crearlo desde el principio o a partir de un producto existente.</p>"
+
+#. help text for start menu, cont.
+#: src/helps.ycp:55
+msgid "<p>When basing the new product on an existing product, check <b>Generate Package Descriptions</b> to generate new descriptions of packages in the existing product.</p>"
+msgstr "<p>Cuando parta de un producto existente para crear el nuevo, marque <b>Generar descripciones de paquetes</b> para generar nuevas descripciones de los paquetes del producto existente.</p>"
+
+#. help text for initial data (paragraph title)
+#: src/helps.ycp:58
+msgid "<p><b>Name and Version</b></p>"
+msgstr "<p><b>Nombre y Versión</b></p>"
+
+#. help text for initial data, cont.
+#: src/helps.ycp:61
+msgid "<p>Enter the name and version of add-on product.</p>"
+msgstr "<p>Introduzca el nombre y versión del producto adicional.</p> "
+
+#. help text for initial data, cont.
+#: src/helps.ycp:64
+msgid "<p><b>Required Product</b></p>"
+msgstr "<p><b>Producto requerido</b></p>"
+
+#. help text for initial data, cont.
+#: src/helps.ycp:67
+msgid "<p>Select the product to which the new add-on product can be applied. This selection forms the <b>REQUIRES</b> value of the <tt>content</tt> file.</p>"
+msgstr "<p>Seleccione el producto al que se puede aplicar el nuevo producto adicional. Lo que seleccione aquí será el valor de <b>REQUIRES</b> del archivo <tt>content</tt>.</p>"
+
+# clients/support_question.ycp:110
+# clients/support_question.ycp:118
+# clients/support_question.ycp:121
+#. help text for initial data (paragraph title), cont.
+#: src/helps.ycp:69
+msgid "<p><b>Add-On Packages</b></p>"
+msgstr "<p><b>Paquetes adicionales</b></p>"
+
+#. help text for initial data, cont.
+#: src/helps.ycp:72
+msgid "<p>Choose the path to the directory containing the RPM packages that should form your add-on product.</p>"
+msgstr "<p>Elija la ruta al directorio que contenga los paquetes RPM que deben conformar el producto adicional.</p>"
+
+#. help text for initial data (paragraph title), cont.
+#: src/helps.ycp:75
+msgid "<p><b>Required Product Packages</b></p>"
+msgstr "<p><b>Paquetes de productos requeridos</b></p>"
+
+#. help text for initial data, cont.
+#: src/helps.ycp:78
+msgid "<p>Optionally, choose the path to the directory containing the RPM packages from the product the add-on product should be based on. These packages will not be contained in the add-on product, but could be used for creating the patterns later in the workflow.</p>"
+msgstr "<p>Si lo desea, elija la ruta al directorio que contiene los paquetes RPM del producto en el que se debe basar el producto adicional. Estos paquetes no se incluirán en el producto adicional, pero se podrán usar posteriormente para crear los patrones en el flujo de trabajo.</p>"
+
+#. help text for content file editor (<tt>content</tt> is a name of file)
+#: src/helps.ycp:81
+msgid "<p>Here, edit the values of the <tt>content</tt> file.</p>"
+msgstr "<p>Edite aquí los valores del archivo <tt>content</tt>.</p>"
+
+#. help text for content file editor, cont.
+#: src/helps.ycp:84
+msgid "<p>Enter the information required to identify the add-on product. Deselect <b>Show Only Required Keywords</b> to see all attributes of the <tt>content</tt> file.</p>"
+msgstr "<p>Especifique la información necesaria para identificar el producto complementario. Anule la selección de <b>Mostrar sólo palabras clave requeridas</b> para ver todos los atributos del archivo <tt>content</tt>.</p>"
+
+#. help text for content file editor, cont.
+#: src/helps.ycp:87
+msgid "<p>Use <b>Import</b> to import an existing <tt>content</tt> file.</p>"
+msgstr "<p>Use <b>Importar</b> para importar un archivo <tt>content</tt> existente.</p>"
+
+#. help text for package description files
+#: src/helps.ycp:90
+msgid "<p>Edit the language-specific descriptions of packages (<tt>packages.lang</tt> files) here.</p>"
+msgstr "<p>Editar las descripciones de los paquetes específicas de cada idioma (archivos <tt>packages.lang</tt>).</p>"
+
+#. help text for package description files, cont.
+#: src/helps.ycp:92
+msgid "<p>Use <b>Add Language</b> to add a description file for a new language. The list of available languages is read from the <b>LINGUAS</b> value of the <tt>content</tt> file. Import an existing file with package descriptions with <b>Import</b>. Delete the description file with <b>Delete</b>.</p>"
+msgstr "<p>Use <b>Añadir idioma</b> para añadir un archivo de descripción para un idioma nuevo. La lista de idiomas disponibles se lee desde el valor <b>LINGUAS</b> del archivo <tt>content</tt>. Puede importar un archivo de descripciones de paquetes existente con <b>Importar</b>. <b>Eliminar</b> permite eliminar el archivo de descripciones.</p>"
+
+#. help text for package description files, cont.
+#: src/helps.ycp:95
+msgid "<p>Use <b>Add</b> and <b>Edit</b> in the second table to modify description entries for the selected package.</p>"
+msgstr "<p>Use <b>Añadir</b> y <b>Editar</b> en la segunda tabla para modificar las entradas de descripción del paquete seleccionado.</p>"
+
+#. help text for package description files, cont.
+#: src/helps.ycp:98
+msgid "<p>Optionally, choose the path for the file providing <b>Additional Package Dependencies</b> (EXTRA_PROV).</p>"
+msgstr "<p>Opcionalmente, elija la ruta del archivo que provee las <b>dependencias del paquete adicional</b> (EXTRA_PROV).</p>"
+
+#. help text for patterns
+#: src/helps.ycp:101
+msgid "<p>Create and edit the patterns for the add-on product here.</p>"
+msgstr "<p>Crear y editar los patrones del producto adicional.</p>"
+
+#. help text for patterns, cont.
+#: src/helps.ycp:104
+msgid "<p>Use <b>New</b> to create a new pattern or <b>Import</b> to import an existing one.</p>"
+msgstr "<p>Use <b>Nuevo</b> para crear un patrón nuevo o <b>Importar</b> para importar uno existente.</p>"
+
+#. help text for patterns, cont.
+#: src/helps.ycp:107
+msgid "<p>Use <b>Add</b> and <b>Edit</b> in the second table to modify pattern attributes.</p>"
+msgstr "<p>Use <b>Añadir</b> y <b>Editar</b> en la segunda tabla para modificar los atributos del patrón.</p>"
+
+#. help text for patterns, cont.
+#: src/helps.ycp:111
+msgid "<p>Check <b>Required pattern</b> if you want to set selected pattern as required for the add-on product. Such pattern will be automatically preselected when the installation of the add-on product is started.</p>"
+msgstr "<p>Compruebe los <b>patrones requeridos</b> si desea poner los patrones seleccionados como requeridos para el producto-adicional. Tales patrones serán automáticamente preseleccionados cuando se inició la instalación del producto adicional.</p>"
+
+#. help text for the 'various settings' dialog
+#: src/helps.ycp:114
+msgid "<p>Specify the path to the directory in which the add-on product should be created. Select <b>Create ISO Image</b> to create the ISO image of the product in the output directory.</p>"
+msgstr "<p>Especifique la ruta al directorio donde se deba crear el producto complementario. Seleccione <b>Crear imagen ISO</b> para crear la imagen ISO del producto en el directorio de salida.</p>"
+
+#. help text for the 'various settings' dialog
+#: src/helps.ycp:117
+msgid "<p>Use <b>Generate Changelog</b> to generate a Changelog file with all the changes of packages on the add-on product made in the last two years.</p>"
+msgstr "<p>Utilice <b>Generar registro de cambios</b> para crear un archivo de registro con todos los cambios de los paquetes en el producto adicional hechos en los últimos dos años.</p>"
+
+#. help text for the 'various settings' dialog
+#: src/helps.ycp:120
+msgid "<p>Adapt the workflow of the add-on product with <b>Configure Workflow</b>. Use <b>Optional Files</b> to configure texts of <tt>README</tt> files, licenses, and other optional values.</p>"
+msgstr "<p>Adapte el flujo de trabajo del producto adicional mediante <b>Configurar flujo de trabajo</b>. Use <b>Archivos opcionales</b> para configurar el texto de los archivos <tt>README</tt>, las licencias y otros valores opcionales.</p>"
+
+#. workflow help text
+#: src/helps.ycp:123
+msgid "<p>Here, you can enter the files necessary for customizing your add-on product workflow.</p>"
+msgstr "<p>Aquí puede especificar los archivos necesarios para personalizar el flujo de trabajo del producto complementario.</p>"
+
+#. workflow help text
+#: src/helps.ycp:126
+msgid "<p>Enter the location of the file with the workflow description. This file is an alternative to <tt>control.xml</tt> and is saved as <tt>installation.xml</tt> in the add-on product's base directory.</p>"
+msgstr "<p>Especifique la ubicación del archivo de descripción del flujo de trabajo. Se trata de una alternativa para el archivo <tt>control.xml</tt> y se guarda como <tt>installation.xml</tt> en el directorio base del producto adicional.</p>"
+
+#. workflow help text
+#: src/helps.ycp:129
+msgid "<p>To use custom YaST modules during the installation of the add-on product, enter the path to the <tt>y2update.tgz</tt> archive where these modules are stored or configure the contents of <tt>y2update.tgz</tt> by specifying the YaST RPM packages in <b>Import the Packages</b>.</p>"
+msgstr "<p>Para usar módulos de YaST personalizados durante la instalación del producto adicional, especifique la ruta al archivo <tt>y2update.tgz</tt> donde estén almacenados los módulos o configure el contenido de <tt>y2update.tgz</tt> especificando los paquetes RPM de YaST en <b>Importar los paquetes</b>.</p>"
+
+#. help text for expert dialog 1
+#: src/helps.ycp:132
+msgid "<p>The optional <tt>info.txt</tt> file gives information about the add-on that should be displayed as a pop-up window with an <b>OK</b> button.</p>"
+msgstr "<p>El archivo <tt>info.txt</tt> opcional proporciona información acerca del complemento que se debe mostrar como una ventana emergente con un botón para aceptar<b></b>.</p>"
+
+#. help text for expert dialog 1, cont
+#: src/helps.ycp:134
+msgid "<p>The text of the license is displayed in a window with <b>Agree</b> and <b>Disagree</b> buttons before the installation starts. The files with the license texts in different languages are compressed to the <tt>license.zip</tt> archive and stored in the <tt>media.1</tt> directory.</p>"
+msgstr "<p>El texto de la licencia se muestra en una ventana con botones para <b>aceptar</b> y <b>rechazar</b> antes de que comience la instalación. Los archivos que incluyen el texto de licencia en distintos idiomas se comprimen en el archivo <tt>license.zip</tt>, que se almacena en el directorio <tt>media.1</tt>.</p>"
+
+#. help text for expert dialog 2
+#: src/helps.ycp:137
+msgid "<p>The <tt>COPYRIGHT</tt> and <tt>COPYING</tt> files can have various language modifications and are stored in the root directory of the add-on product.</p>"
+msgstr "<p>Los archivos <tt>COPYRIGHT</tt> y <tt>COPYING</tt> pueden tener distintas versiones por idioma y se almacenan en el directorio raíz del producto adicional.</p>"
+
+#. help text for signing dialog
+#: src/helps.ycp:140
+msgid "<p>Here, configure the signing of the add-on product. Choose a secret key from the list of keys available or create a new one with <b>Create</b>.</p>"
+msgstr "<p>Configure aquí la firma del producto adicional. Elija una clave secreta de la lista de claves disponibles o cree una nueva mediante <b>Crear</b>.</p>"
+
+#. help text for signing dialog, cont.
+#: src/helps.ycp:143
+msgid "<p>Enter the passphrase needed to unlock the secret key.</p>"
+msgstr "<p>Especifique la contraseña codificada necesaria para desbloquear la clave secreta.</p>"
+
+#. help text for signing dialog, cont.
+#: src/helps.ycp:146
+msgid "<p>Select if you want to <b>Sign All Packages</b> of the add-on product with selected key. All previous package signatures will be removed.</p>"
+msgstr "<p>Seleccione si desea <b>firmar todos los paquetes</b> del producto adicional con la llave seleccionada. Todas las firmas de los paquetes anteriores serán eliminadas.</p>"
+
+#. help text for generating new key dialog
+#: src/helps.ycp:149
+msgid "<p>Enter the values necessary for generating the new primary key pair.</p>"
+msgstr "<p>Especifique los valores necesarios para generar el nuevo par de claves primarias.</p>"
+
+#. help text for generating new key dialog, cont.
+#: src/helps.ycp:152
+msgid "<p>The default size of a DSA key is 1024 bits. RSA keys may be between 1024 and 4096 bits long.</p>"
+msgstr "<p>El tamaño por defecto de las claves DSA es de 1024 bits. La longitud de las claves RSA puede estar comprendida entre 1024 y 4096 bits.</p>"
+
+#. help text for generating new key dialog, cont.
+#: src/helps.ycp:155
+msgid "<p>As <b>Expiration Date</b>, enter the number of days after which the key expires. If the number is followed by <tt>w</tt>,<tt>m</tt>, or <tt>y</tt>, it indicates the number of weeks, months, or years. Leave the entry empty for a key that never expires.</p>"
+msgstr "<p>Como <b>Fecha de expiración</b>, especifique el número de días después de los cuales expirará la clave. Si el número va seguido de <tt>w</tt>,<tt>m</tt> o <tt>y</tt>, indica el número de semanas, meses o años respectivamente. Deje la entrada vacía si la clave no expira.</p>"
+
+#. help text for generating new key dialog, cont.
+#: src/helps.ycp:158
+msgid "<p>Use <b>Name</b>, <b>Comment</b>, and <b>E-Mail Address</b> to provide the user identification with which the new key should be associated.</p>"
+msgstr "<p>Use <b>Nombre</b>, <b>Comentario</b> y <b>Dirección de correo electrónico</b> para identificar al usuario con el que se deba asociar la nueva clave.</p>"
+
+#. help text for overview dialog
+#: src/helps.ycp:161
+msgid "<p>Here, see the overview of data for generating the add-on product.</p>"
+msgstr "<p>Revise aquí la descripción general de los datos para generar el producto adicional.</p>"
+
+#. help text for overview dialog, cont.
+#: src/helps.ycp:164
+msgid "<p>Press <b>Finish</b> to create the add-on product in the output directory.</p>"
+msgstr "<p>Pulse <b>Finalizar</b> para crear el producto adicional en el directorio de salida.</p>"
+
+#. text entry label
+#: src/patterns.ycp:62
+msgid "&Name of the New Pattern"
+msgstr "&Nombre del nuevo patrón"
+
+#. combo box label
+#: src/patterns.ycp:64
+msgid "&Architecture"
+msgstr "&Arquitectura"
+
+#. text entry label
+#: src/patterns.ycp:72
+msgid "&Release"
+msgstr "&Revisión"
+
+#. popup message
+#: src/patterns.ycp:99
+msgid ""
+"Such pattern already exists.\n"
+"Choose a different name or architecture."
+msgstr ""
+"Ya existe un patrón con este nombre.\n"
+"Elija un nombre o una arquitectura diferente."
+
+#: src/patterns.ycp:133
+msgid "&Description"
+msgstr "&Descripción"
+
+#: src/patterns.ycp:135
+msgid "&Summary"
+msgstr "Re&sumen"
+
+#: src/patterns.ycp:137
+msgid "Ca&tegory"
+msgstr "Ca&tegoría"
+
+#. combo label
+#: src/patterns.ycp:141
+msgid "&Language Code"
+msgstr "&Código de idioma"
+
+#. popup message
+#: src/patterns.ycp:188
+msgid ""
+"A key with this name already exists.\n"
+"Choose a different one."
+msgstr ""
+"Ya existe una clave con este nombre.\n"
+"Elija otro."
+
+#. dialog caption
+#: src/patterns.ycp:247
+msgid "Editor for Patterns"
+msgstr "Editor de patrones"
+
+#. table header
+#: src/patterns.ycp:253
+msgid "Name of the Pattern"
+msgstr "Nombre del patrón"
+
+#. table header
+#: src/patterns.ycp:255
+msgid "Full Name"
+msgstr "Nombre completo"
+
+#. check box label
+#: src/patterns.ycp:278
+msgid "R&equired pattern"
+msgstr "Patrón &requerido"
+
+#. popup for file selection dialog
+#: src/patterns.ycp:330
+msgid "Existing Pattern"
+msgstr "Patrón existente"
+
+#. error message
+#: src/patterns.ycp:450
+msgid ""
+"Such pattern already exists.\n"
+"Choose a different architecture."
+msgstr ""
+"Ya existe ese patrón.\n"
+"Elija una aquitectura diferente."
+
+#. busy message
+#: src/wizards.ycp:53
+msgid "Importing product..."
+msgstr "Importando producto..."

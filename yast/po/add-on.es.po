@@ -1,0 +1,466 @@
+# translation of add-on.es.po to
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Carlos E. Robinson <robin.listas@telefonica.net>, 2007.
+# Sergio Gabriel Teves <gabriel@opensuse.org>, 2008.
+# Luis Martinez <lmartinez@sct.ictnet.es>, 2008.
+# Alfredo Beltramo <balfred@dimagin.net>, 2008.
+# Miguel Angel Alvarez <maacruz@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: add-on.es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-06 11:17+0100\n"
+"PO-Revision-Date: 2009-08-09 14:27+0200\n"
+"Last-Translator: Miguel Angel Alvarez <maacruz@gmail.com>\n"
+"Language-Team:  <opensuse-translation-es@opensuse.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Spanish\n"
+
+#. table cell
+#: src/add-on-workflow.ycp:138 src/add-on-workflow.ycp:509
+msgid "No product found in the repository"
+msgstr "No se ha encontrado ningún producto en el repositorio"
+
+#. error report
+#: src/add-on-workflow.ycp:274
+msgid "No software repository found on medium."
+msgstr "No ha sido posible encontrar ningún repositorio de software en el medio."
+
+#. busy message
+#: src/add-on-workflow.ycp:291
+msgid "Initializing new source..."
+msgstr "Iniciando el nuevo origen..."
+
+#. placeholder for unknown directory
+#. place holder for unknown URL
+#. placeholder for unknown path
+#. placeholder for unknown URL
+#. placeholder for unknown path
+#. summary item, %1 is product name, %2 media URL, %3 directory on media
+#: src/add-on-workflow.ycp:323 src/add-on-workflow.ycp:328
+#: src/add-on-workflow.ycp:810 src/add-on-workflow.ycp:816
+#: src/add-on_proposal.ycp:32 src/add-on_proposal.ycp:36
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: src/add-on-workflow.ycp:326
+#, ycp-format
+msgid "URL: %1, Directory: %2"
+msgstr "URL: %1, directorio: %2"
+
+#. dialog caption
+#: src/add-on-workflow.ycp:332
+msgid "Software Repository Selection"
+msgstr "Selección del repositorio de software"
+
+#. help text
+#: src/add-on-workflow.ycp:334
+msgid ""
+"<p><big><b>Software Repository Selection</b></big><br>\n"
+"Multiple repositories were found on the selected medium.\n"
+"Select the repository to use.</p>\n"
+msgstr ""
+"<p><big><b>Selección de repositorio de software</b></big><br>\n"
+"Se han detectado varios repositorios en el medio seleccionado.\n"
+"Seleccione el que desee utilizar.</p>\n"
+
+#: src/add-on-workflow.ycp:341
+msgid "Repositories &Found"
+msgstr "Repositorios &encontrados"
+
+#. if (Stage::initial())
+#. {
+#. if (Popup::ConfirmAbort (`painless))
+#. break;
+#. }
+#. else
+#. {
+#. yes-no popup
+#: src/add-on-workflow.ycp:353 src/add-on-workflow.ycp:634
+msgid "Really abort add-on product installation?"
+msgstr "¿Está seguro de que desea cancelar la instalación del producto adicional?"
+
+#
+#. popup message
+#: src/add-on-workflow.ycp:368
+msgid "Select a repository."
+msgstr "Seleccione un repositorio."
+
+#. message popup
+#: src/add-on-workflow.ycp:550
+msgid "Dependencies of the add-on product cannot be fulfilled."
+msgstr "No es posible resolver las dependencias del producto adicional."
+
+#. dialog caption
+#: src/add-on-workflow.ycp:607
+msgid "Product Selection"
+msgstr "Selección de producto"
+
+#. multi selection list
+#: src/add-on-workflow.ycp:611
+msgid "Available Products"
+msgstr "Productos disponibles"
+
+#. help text
+#: src/add-on-workflow.ycp:615
+msgid ""
+"<p><b><big>Product Selection</big></b><br/>\n"
+"Multiple products were found in the repository. Select the products\n"
+"to install.</p>\n"
+msgstr ""
+"<p><b><big>Selección de producto</big></b><br/>\n"
+"Se han detectado varios productos en el repositorio. Seleccione los\n"
+"productos que desee instalar.</p>\n"
+
+#. message popup
+#: src/add-on-workflow.ycp:676
+msgid "Dependencies of the selected add-on products cannot be fulfilled."
+msgstr "No es posible resolver las dependencias de los productos adicionales seleccionados."
+
+#. main screen heading
+#. feedback heading
+#. TRANSLATORS: dialog caption
+#: src/add-on-workflow.ycp:784 src/add-on-workflow.ycp:1446
+#: src/inst_language_add-on.ycp:114 src/inst_language_add-on.ycp:163
+msgid "Add-On Product Installation"
+msgstr "Instalación de productos adicionales"
+
+#. Help for add-on products
+#: src/add-on-workflow.ycp:787
+msgid ""
+"<p><big><b>Add-On Product Installation</b></big></br>\n"
+"Here see all add-on products that are selected for installation.\n"
+"To add a new product, click <b>Add</b>. To remove an already added one,\n"
+"select it and click <b>Delete</b>.</p>"
+msgstr ""
+"<p><big><b>Instalación de producto adicional</b></big></br>\n"
+"Aquí se muestran todos los productos adicionales seleccionados para su instalación.\n"
+"Para añadir un nuevo producto, haga clic en <b>Añadir.</b> Para eliminar uno ya añadido,\n"
+"selecciónelo y haga clic en <b>Eliminar</b>.</p>"
+
+#. table cell, %1 is URL, %2 is directory name
+#: src/add-on-workflow.ycp:814
+#, ycp-format
+msgid "%1, Directory: %2"
+msgstr "%1, Directorio: %2"
+
+#. table header
+#: src/add-on-workflow.ycp:830
+msgid "Product"
+msgstr "Producto"
+
+#. table header
+#: src/add-on-workflow.ycp:832
+msgid "Media"
+msgstr "Medio"
+
+#. message report
+#: src/add-on-workflow.ycp:974
+msgid "Select a product to delete."
+msgstr "Seleccione un producto que eliminar."
+
+#. TRANSLATORS: busy message
+#: src/add-on-workflow.ycp:984
+msgid "Removing selected add-on..."
+msgstr "Eliminando productos seleccionados..."
+
+#. TRANSLATORS: dialog caption
+#: src/add-on-workflow.ycp:1060
+msgid "Installed Add-On Products"
+msgstr "Productos adicionales instalados"
+
+#. TRANSLATORS: table header item
+#: src/add-on-workflow.ycp:1067
+msgid "Add-On Product"
+msgstr "Productos adicionales"
+
+#. TRANSLATORS: table header item
+#: src/add-on-workflow.ycp:1069
+msgid "URL"
+msgstr "URL"
+
+#. TRANSLATORS: push button
+#: src/add-on-workflow.ycp:1085
+msgid "Run &Software Manager..."
+msgstr "Ejecutar Gestor de &Software..."
+
+#. TRANSLATORS: dialog help adp/1
+#: src/add-on-workflow.ycp:1089
+msgid "<p>Here you can see all of the add-on products which are installed on your system.</p>"
+msgstr "<p>Aquí puede ver la lista de productos adicionales instalados en su sistema.</p>"
+
+#. TRANSLATORS: dialog help adp/2
+#: src/add-on-workflow.ycp:1091
+msgid "<p>Use the <b>Add</b> button to add a new add-on product, or the <b>Delete</b> button to remove an add-on which is in use.</p>"
+msgstr "<p>Use <b>Añadir</b> para añadir un nuevo producto adicional o <b>Eliminar</b> para eliminar uno existente.</p>"
+
+#: src/add-on-workflow.ycp:1142
+#, ycp-format
+msgid "<b>Vendor:</b> %1<br>"
+msgstr "<b>Fabricante:</b> %1<br>"
+
+#: src/add-on-workflow.ycp:1143
+msgid "Unknown vendor"
+msgstr "Fabricante desconocido"
+
+#: src/add-on-workflow.ycp:1146
+#, ycp-format
+msgid "<b>Version:</b> %1<br>"
+msgstr "<b>Versión:</b> %1 <br>"
+
+#: src/add-on-workflow.ycp:1147
+msgid "Unknown version"
+msgstr "Versión desconocida"
+
+#: src/add-on-workflow.ycp:1150
+#, ycp-format
+msgid "<b>Repository URL:</b> %1<br>"
+msgstr "<b>URL del repositorio:</b> %1<br>"
+
+#: src/add-on-workflow.ycp:1154
+msgid "Unknown repository URL"
+msgstr "URL del repositorio desconocida"
+
+#: src/add-on-workflow.ycp:1158
+#, ycp-format
+msgid "<b>Repository Alias:</b> %1<br>"
+msgstr "<b>Alias del repositorio:</b> %1<br>"
+
+#: src/add-on-workflow.ycp:1282 src/add-on-workflow.ycp:1327
+msgid "Unknown product"
+msgstr "Producto desconocido"
+
+#: src/add-on-workflow.ycp:1283
+msgid "Unknown URL"
+msgstr "URL desconocida"
+
+#: src/add-on-workflow.ycp:1331
+#, ycp-format
+msgid ""
+"Deleting the add-on product %1 may result in removing all the packages\n"
+"installed from this add-on.\n"
+"\n"
+"Are sure you want to delete it?"
+msgstr ""
+"Al eliminar el producto adicional %1 puede hacer que se quiten o desinstalen todos los paquetes\n"
+"instalados desde este producto adicional\n"
+"\n"
+"¿Está seguro de querer eliminarlo?"
+
+#. TRANSLATORS: busy popup message
+#: src/add-on-workflow.ycp:1344
+msgid "Removing product dependencies..."
+msgstr "Quitando las dependencias del producto..."
+
+#: src/add-on-workflow.ycp:1449
+msgid "Reading packages available at the installation repositories..."
+msgstr "Leyendo los paquetes disponibles en los repositorios de instalación..."
+
+#. dialog caption
+#. this is a heading
+#: src/add-on-workflow.ycp:1471 src/add-on.ycp:84 src/add-on_proposal.ycp:73
+msgid "Add-On Products"
+msgstr "Productos adicionales"
+
+#. busy message (dialog)
+#. TRANSLATORS: dialog content - a very simple label
+#: src/add-on-workflow.ycp:1472 src/add-on.ycp:86
+#: src/inst_language_add-on.ycp:116
+msgid "Initializing..."
+msgstr "Iniciando..."
+
+#. help
+#. TRANSLATORS: help text
+#: src/add-on-workflow.ycp:1473 src/add-on.ycp:88
+#: src/inst_language_add-on.ycp:118
+msgid "<p>Initializing add-on products...</p>"
+msgstr "<p>Iniciando productos adicionales...</p>"
+
+#. TRANSLATORS: commandline help
+#: src/add-on.ycp:36
+msgid ""
+"\n"
+"Add-On Module Help\n"
+"------------------\n"
+"\n"
+"To add a new add-on product via the command-line, use this syntax:\n"
+"    /sbin/yast2 add-on URL\n"
+"URL is the path to the add-on source.\n"
+"\n"
+"Examples of URL:\n"
+"http://server.name/directory/Lang-AddOn-10.2-i386/\n"
+"ftp://server.name/directory/Lang-AddOn-10.2-i386/\n"
+"nfs://server.name/directory/SDK1-SLE-i386/\n"
+"disk://dev/sda5/directory/Product/CD1/\n"
+"cd://\n"
+"dvd://\n"
+msgstr ""
+"\n"
+"Ayuda del Módulo de Productos Adicionales\n"
+"------------------\n"
+"\n"
+"Para añadir un nuevo producto adicional\n"
+"mediante la línea de comandos, use esta sintaxis:\n"
+"    /sbin/yast2 add-on URL\n"
+"URL es la ruta a la fuente del producto adicional.\n"
+"\n"
+"Ejemplos de URL:\n"
+"http://server.name/directory/Lang-AddOn-10.2-i386/\n"
+"ftp://server.name/directory/Lang-AddOn-10.2-i386/\n"
+"nfs://server.name/directory/SDK1-SLE-i386/\n"
+"disk://dev/sda5/directory/Product/CD1/\n"
+"cd://\n"
+"dvd://\n"
+
+#: src/add-on.ycp:56
+msgid "Target file name ('xmlfile' option) is missing. Use xmlfile=<target_XML_file> command line option."
+msgstr "Falta el nombre del archivo de destino (opción \"xmlfile\"). Utilice la opción de la línea de comandos xmlfile=<archivo_XML_destino>."
+
+#: src/add-on_auto.ycp:59
+#, ycp-format
+msgid "<li>Media: %1, Path: %2, Product: %3</li>\n"
+msgstr "<li>Medio: %1, vía: %2, producto: %3</li>\n"
+
+#. error report
+#: src/add-on_auto.ycp:174
+msgid "Failed to add add-on product."
+msgstr "Error al añadir el producto adicional."
+
+#: src/add-on_auto.ycp:177
+#, ycp-format
+msgid "Please make the add-on \"%1\" available via \"%2\""
+msgstr "Por favor, verifique que el complemento \"%1\" este disponible en \"%2\""
+
+#. summary string
+#: src/add-on_proposal.ycp:41
+msgid "No add-on product selected for installation"
+msgstr "No se ha seleccionado ningún producto adicional para la instalación"
+
+#. this is a menu entry
+#: src/add-on_proposal.ycp:75
+msgid "Add-&On Products"
+msgstr "&Productos adicionales"
+
+#. TRANSLATORS: popup message
+#: src/inst_language_add-on.ycp:77
+msgid "Installation of the Language Extension has been finished."
+msgstr "La instalación de la extensión de idioma ha finalizado."
+
+#. TRANSLATORS:: multi-selection box
+#: src/inst_language_add-on.ycp:170
+msgid "&Select Language Extensions to be Installed"
+msgstr "&Seleccionar las extensiones de idiomas que se deben instalar"
+
+#. TRANSLATORS: help text
+#: src/inst_language_add-on.ycp:177
+msgid "<p>Select the language extensions to be installed and then click the <b>OK</b> button.</p>"
+msgstr "<p>Seleccione las extensiones de idiomas que desea instalar y pulse <b>Aceptar</b>.</p>"
+
+#. TRANSLATORS: popup question
+#: src/inst_language_add-on.ycp:194
+msgid "Are you sure you want to abort the add-on product installation?"
+msgstr "¿Seguro que desea cancelar la instalación del producto adicional?"
+
+#: src/inst_language_add-on.ycp:203
+msgid ""
+"There are no selected languages to be installed.\n"
+"Are you sure you want to abort the installation?"
+msgstr ""
+"No ha seleccionado ningún idioma para su instalación.\n"
+"¿Seguro que desea cancelar la instalación?"
+
+#. TRANSLATORS: multiselection box item, %1 stands for 'ar', 'mk', 'zh_TW'
+#. it used only as a fallback
+#: src/inst_language_add-on.ycp:251
+#, ycp-format
+msgid "Language %1"
+msgstr "Idioma %1"
+
+#. TRANSLATORS: pop-up headline
+#: src/misc.ycp:65
+msgid "Warning: Not enough memory!"
+msgstr "Advertencia: ¡Memoria insuficiente!"
+
+#. TRANSLATORS: pop-up question
+#: src/misc.ycp:67
+msgid ""
+"Your system does not seem to have enough memory to use add-on products\n"
+"during installation. You can enable add-on products later when the\n"
+"system is running.\n"
+"\n"
+"Do you want to skip using add-on products?"
+msgstr ""
+"Su sistema no parece tener suficiente memoria para usar productos adicionales\n"
+"durante la instalación. Puede habilitar los productos adicionales\n"
+"más tarde, cuando el sistema esté en ejecución.\n"
+"\n"
+"¿Quiere omitir el uso de productos adicionales?"
+
+#. TRANSLATORS: error message - the module does not provide command line interface
+#: src/vendor.ycp:29
+msgid "There is no user interface available for this module."
+msgstr "No hay ninguna interfaz de usuario disponible para este módulo."
+
+#. VENDOR: main screen heading
+#: src/vendor.ycp:92
+msgid "Vendor Driver CD"
+msgstr "CD de controladores del fabricante"
+
+#. VENDOR: cant mount /dev/cdrom popup
+#: src/vendor.ycp:108
+msgid "Please insert the vendor CD-ROM"
+msgstr "Por favor, introduzca el CD-ROM del fabricante"
+
+#. VENDOR: vendor cd contains wrong data
+#: src/vendor.ycp:157 src/vendor.ycp:171 src/vendor.ycp:219
+msgid ""
+"Could not find driver data on the CD-ROM.\n"
+"Aborting now."
+msgstr ""
+"No ha sido posible encontrar datos de controladores en el CD-ROM.\n"
+"Cancelando."
+
+#. VENDOR: vendor cd doesn't contain data for current system and linux version
+#: src/vendor.ycp:194
+msgid ""
+"The CD-ROM data does not match the running Linux system.\n"
+"Aborting now.\n"
+msgstr ""
+"Los datos del CD-ROM no son apropiados para el sistema Linux en ejecución.\n"
+"Cancelando.\n"
+
+#. VENDOR: dialog heading
+#: src/vendor.ycp:256
+msgid "Installing driver..."
+msgstr "Instalando controlador..."
+
+#. VENDOR: popup if installation of driver failed
+#: src/vendor.ycp:265
+msgid ""
+"The installation failed.\n"
+"Contact the address on the CD-ROM.\n"
+msgstr ""
+"La instalación ha fallado.\n"
+"Por favor, contacte con la dirección que aparece en los CD-ROM.\n"
+
+#. VENDOR: message box with number of drivers installed
+#: src/vendor.ycp:277
+#, ycp-format
+msgid "Installed %1 drivers from CD"
+msgstr "Instalado(s) %1 controlador(es) del CD"
+
+#. VENDOR: message box with error text
+#: src/vendor.ycp:282
+msgid ""
+"No driver data found on the CD-ROM.\n"
+"Aborting now."
+msgstr ""
+"No se han encontrado datos de controladores en el CD-ROM.\n"
+"Cancelando."

@@ -1,0 +1,388 @@
+# translation of autofs.es.po to
+# Spanish message file for YaST2 (@memory@).
+# Copyright (C) 2005 SUSE Linux Products GmbH.
+# Copyright (C) 2002, 2003 SuSE Linux AG.
+# Copyright (C) 1999, 2000, 2001 SuSE GmbH.
+#
+# Ibán josé García Castillo <Iban.Garcia@alufis35.uv.es>, 2000.
+# Javier Moreno <javier.moreno@alufis35.uv.es>, 2000.
+# Jordi Jaen Pallares <jordi@suse.de>, 1999, 2000, 2001.
+# Pablo Iranzo Gómez <Pablo.Iranzo@uv.es>, 2000.
+# Carlos E. Robinson <robin.listas@telefonica.net>, 2007.
+# Lluis Martinez <lmartinez@sct.ictnet.es>, 2008.
+# Luis Martinez <lmartinez@sct.ictnet.es>, 2008.
+# Ricardo Varas Santana <rvaras81@yahoo.com>, 2008.
+# Miguel Angel Alvarez <maacruz@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: autofs.es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-06 11:17+0100\n"
+"PO-Revision-Date: 2009-10-07 20:22+0200\n"
+"Last-Translator: Miguel Angel Alvarez <maacruz@gmail.com>\n"
+"Language-Team:  <opensuse-translation-es@opensuse.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Language: Spanish\n"
+
+#: src/Autofs.pm:211
+msgid "You must configure LDAP to use the autofs module."
+msgstr "Debe configurar LDAP para utilizar el módulo autofs."
+
+#: src/Autofs.pm:213
+msgid "You can do it by using the YaST ldap module."
+msgstr "Puede hacerlo usando el módulo ldap de YAST."
+
+#: src/Autofs.pm:224
+msgid "Cannot use localhost as the LDAP server for autofs."
+msgstr "localhost no puede ser el servidor LDAP para autofs."
+
+#: src/Autofs.pm:240
+msgid "Failed to bind to the LDAP server."
+msgstr "No se ha podido conectar al servidor LDAP."
+
+#: src/Autofs.pm:287
+msgid "Failed to create the autofs base objects."
+msgstr "No se ha podido crear los objetos base de autofs."
+
+#: src/Autofs.pm:323
+msgid "Failed to create the new map."
+msgstr "No se ha podido crear el nuevo mapa."
+
+#: src/Autofs.pm:347
+msgid "Failed to delete an autofs map."
+msgstr "No se ha podido eliminar un mapa autofs."
+
+#: src/Autofs.pm:376
+msgid "Failed to add an autofs entry to map."
+msgstr "No se ha podido añadir una entrada de autofs al mapa."
+
+#: src/Autofs.pm:405
+msgid "Failed to modify an autofs entry in map."
+msgstr "No se ha podido modificar una entrada de autofs en el mapa."
+
+#. Autofs read dialog caption
+#: src/Autofs.pm:557
+msgid "Initializing autofs Configuration"
+msgstr "Iniciando la configuración de autofs"
+
+#. Progress stage 1/2
+#: src/Autofs.pm:571
+msgid "Check the ldap configuration"
+msgstr "Comprobar la configuración ldap"
+
+#. Progress stage 2/2
+#: src/Autofs.pm:573
+msgid "Read the autofs maps"
+msgstr "Leer los mapas autofs"
+
+#. Progress step 1/2
+#: src/Autofs.pm:576
+msgid "Checking the ldap configuration..."
+msgstr "Comprobando la configuración ldap..."
+
+#. Progress step 2/2
+#: src/Autofs.pm:578
+msgid "Reading the autofs maps..."
+msgstr "Leyendo los mapas autofs..."
+
+#. Progress finished
+#: src/Autofs.pm:580 src/Autofs.pm:655
+msgid "Finished"
+msgstr "Terminado"
+
+#: src/Autofs.pm:590
+msgid "LDAP configuration error."
+msgstr "Error de configuración LDAP."
+
+#: src/Autofs.pm:607
+msgid "Cannot read the autofs maps."
+msgstr "No se puede leer los mapas autofs."
+
+#. Autofs read dialog caption
+#: src/Autofs.pm:638
+msgid "Saving autofs Configuration"
+msgstr "Guardando la configuración autofs"
+
+#. Progress stage 1/1
+#: src/Autofs.pm:650
+msgid "Write the autofs maps"
+msgstr "Escribir los mapas autofs"
+
+#. Progress step 1/1
+#: src/Autofs.pm:653
+msgid "Writing the autofs maps..."
+msgstr "Escribiendo los mapas autofs..."
+
+#: src/Autofs.pm:665
+msgid "Cannot write the autofs maps."
+msgstr "No es posible escribir los mapas autofs."
+
+#: src/Autofs.pm:709
+msgid "Configuration summary ..."
+msgstr "Resumen de la configuración..."
+
+#. text entry label
+#: src/AutofsUI.ycp:24
+msgid "DNS Name or IP address of the LDAP server"
+msgstr "Nombre DNS o dirección IP del servidor LDAP"
+
+#. Command line help text for the Xautofs module
+#: src/autofs.ycp:54
+msgid "Configuration of autofs"
+msgstr "Configuración de autofs"
+
+# include/network/isdn/connection.ycp:136
+#. Rich text title for Autofs in proposals
+#: src/autofs_proposal.ycp:85 src/complex.ycp:157
+msgid "Autofs"
+msgstr "Autofs"
+
+# include/network/isdn/connection.ycp:136
+#. Menu title for Autofs in proposals
+#: src/autofs_proposal.ycp:87
+msgid "&Autofs"
+msgstr "&Autofs"
+
+#. Autofs summary dialog caption
+#. Autofs configure1 dialog caption
+#. Initialization dialog caption
+#: src/complex.ycp:90 src/dialogs.ycp:270 src/wizards.ycp:86
+msgid "Autofs Configuration"
+msgstr "Configuración de autofs"
+
+#
+# include/network/modem/complex.ycp:123
+#. Frame label
+#: src/complex.ycp:98
+msgid "Autofs to Configure"
+msgstr "Autofs a configurar"
+
+#. Autofs overview dialog caption
+#: src/complex.ycp:150
+msgid "Autofs Overview"
+msgstr "Descripción general de autofs"
+
+#. Table header
+#: src/complex.ycp:157
+msgid "Number"
+msgstr "Número"
+
+#. text entry label
+#: src/dialogs.ycp:68
+msgid "Name of the map"
+msgstr "Nombre del mapa "
+
+#: src/dialogs.ycp:126
+msgid "Type"
+msgstr "Tipo"
+
+#: src/dialogs.ycp:131
+msgid "Other"
+msgstr "Otro"
+
+#: src/dialogs.ycp:135 src/dialogs.ycp:159 src/dialogs.ycp:284
+msgid "Key"
+msgstr "Clave"
+
+#: src/dialogs.ycp:138 src/dialogs.ycp:160 src/dialogs.ycp:184
+#: src/dialogs.ycp:198 src/dialogs.ycp:212 src/dialogs.ycp:284
+msgid "Options"
+msgstr "Opciones"
+
+#: src/dialogs.ycp:139 src/dialogs.ycp:185 src/dialogs.ycp:199
+msgid "Server"
+msgstr "Servidor"
+
+#: src/dialogs.ycp:140 src/dialogs.ycp:186
+msgid "Path"
+msgstr "Ruta"
+
+#: src/dialogs.ycp:161 src/dialogs.ycp:213 src/dialogs.ycp:284
+msgid "Location"
+msgstr "Ubicación"
+
+#: src/dialogs.ycp:200
+msgid "Share"
+msgstr "Recurso compartido"
+
+#: src/dialogs.ycp:278 src/dialogs.ycp:332 src/dialogs.ycp:345
+msgid "Maps"
+msgstr "Mapas"
+
+#: src/dialogs.ycp:281 src/dialogs.ycp:286
+msgid "Add"
+msgstr "Añadir"
+
+#. `PushButton(`id(`modentry), _("Edit")),
+#: src/dialogs.ycp:282 src/dialogs.ycp:288
+msgid "Delete"
+msgstr "Eliminar"
+
+#. Read dialog help 1/2
+#: src/helps.ycp:40
+msgid ""
+"<p><b>Initializing autofs configuration</b><br>\n"
+"Please wait...<br></p>\n"
+msgstr ""
+"<p><b>Iniciando la configuración de autofs</b><br>\n"
+"Por favor, espere...<br></p>\n"
+
+#. Read dialog help 2/2
+#: src/helps.ycp:45
+msgid ""
+"<p><b><big>Aborting Initialization:</big></b><br>\n"
+"Safely abort the configuration utility by pressing <b>Abort</b> now.</p>\n"
+msgstr ""
+"<P><B><BIG>Cancelar el inicio:</BIG></B><BR>\n"
+"Para cancelar la utilidad de configuración, pulse <B>Cancelar</B>.</p>\n"
+
+#. Write dialog help 1/2
+#: src/helps.ycp:50
+msgid ""
+"<p><b>Saving autofs configuration</b><br>\n"
+"Please wait...<br></p>\n"
+msgstr ""
+"<p><b>Guardando la configuración de autofs</b><br>\n"
+"Por favor, espere...<br></p>\n"
+
+#. Write dialog help 2/2
+#: src/helps.ycp:55
+msgid ""
+"<p><b>Aborting Save:</b><br>\n"
+"Abort the save procedure by pressing <b>Abort</b>.\n"
+"</p>\n"
+msgstr ""
+"<p><b>Cancelando la grabación</b><br>\n"
+"Cancele el procedimiento de grabación pulsando <b>Cancelar</b>.\n"
+"</p>\n"
+
+#. Configure dialog help 1/4
+#: src/helps.ycp:61
+msgid ""
+"<p><b>Automounter Maps</b><br/>\n"
+"The automounter maps are referred to by the master map of the\n"
+"automounter. Entries in the automounter maps describe how file\n"
+"systems below the mountpoint of the map are to be mounted.\n"
+"<br/></p>\n"
+msgstr ""
+"<p><b>Mapas de automontaje</b><br/>\n"
+"Los mapas de automontaje son referidos por el mapa maestro\n"
+"del automontador. Las entradas en los mapas de automontaje describen cómo los sistemas\n"
+"de archivos por debajo del punto de montaje del mapa han de ser montados.\n"
+"<br/></p>\n"
+
+#. Configure dialog help 2/4
+#: src/helps.ycp:69
+msgid ""
+"<p><b><big>Key</big></b><br>\n"
+"This is the part of the pathname between the map mountpoint and\n"
+"the path into the filesystem mounted.\n"
+"</p>"
+msgstr ""
+"<p><b><big>Key</big></b><br>\n"
+"Esta es la parte de la ruta entre el punto de montaje del mapa y\n"
+"la ruta hacia el sistema de archivos montado.\n"
+"</p>"
+
+#. Configure dialog help 3/4
+#: src/helps.ycp:75
+msgid ""
+"<p><b><big>Options</big></b><br>\n"
+"The options are comma seperated, as customary for the <b>mount</b>(8) command.\n"
+"<br></p>\n"
+msgstr ""
+"<p><b><big>Opciones</big></b><br>\n"
+"Las opciones son una lista de opciones separadas por comas, como las habituales para el comando <b>mount</b>(8).\n"
+"<br></p>\n"
+
+#. Configure dialog help 4/4
+#: src/helps.ycp:81
+msgid ""
+"<p><b><big>Location</big></b><br>\n"
+"The location specifies from where the file system is to be mounted.\n"
+"For an NFS volume the usual notation is host:pathname.\n"
+"If the filesystem to be mounted begins with a '/' (such as local\n"
+"entries or smbfs shares) a ':' needs to be prefixed.\n"
+"</p>"
+msgstr ""
+"<p><b><big>Ubicación</big></b><br>\n"
+"La localización especifica donde ha de ser montado el sistema\n"
+" de archivos. Para un volumen NFS la notación habitual es\n"
+"host:ruta. Si el sistema de archivos a ser montado comienza\n"
+"con un '/' (tal como entradas locales de recursos compartidos\n"
+"smbfs) se necesita anteponer ':'.\n"
+"</p>"
+
+# Cer: ¿pfad?
+#. EntryDialog for NFS entry
+#: src/helps.ycp:89
+msgid ""
+"<p><b><big>NFS Entry</big></b><br>\n"
+"In the case of NFS entries, the <b>Server</b> is the DNS name or IP address of the NFS server.<br/>\n"
+"The <b>Path</b> is the absolute path to the directory on the NFS server.<br/>\n"
+"The <b>Options</b> must be valid options of the <b>mount</b>(8) command for NFS file systems.<br/>\n"
+"<br/></p>\n"
+msgstr ""
+"<p><b><big>Entrada NFS</big></b><br>\n"
+"En caso de una entrada NFS el <b>Servidor</b> es el nombre DNS o la dirección IP del servidor NFS.<br>\n"
+"La <b>Ruta</p> es la ruta absoluta del directorio en el servidor NFS.<br>\n"
+"Las <b>Opciones</b> deben ser opciones válidas de la orden <b>mount</b>(8) para el sistema de archivos NFS.<br>\n"
+"<br></p>\n"
+
+#. EntryDialog for SAMBA entry
+#: src/helps.ycp:97
+msgid ""
+"<p><b>SAMBA Entry</b><br/>\n"
+"In the case of SAMBA entries, the <b>Server</b> is the DNS name or IP address of the SAMBA server.<br/>\n"
+"The <b>Share</b> is the name of the SAMBA share to be mounted.<br/>\n"
+"The <b>Options</b> must be valid options of the <b>mount</b>(8) command for SMB/CIFS file systems.<br>\n"
+"<br/></p>\n"
+msgstr ""
+"<p><b>Entrada SAMBA</b><br/>\n"
+"En caso de una entrada SAMBA el <b>Servidor</b> es el nombre DNS o la dirección IP del servidor SAMBA.<br/>\n"
+"El <b>Recurso compartido</b> es el nombre del recurso SAMBA compartido a ser montado.<br/>\n"
+"Las <b>Opciones</b> deben ser opciones válidas de la orden <b>mount</b>(8) para el sistema de archivos SMB/CIFS.<br>\n"
+"<br/></p>\n"
+
+#. EntryDialog for Other entry
+#: src/helps.ycp:105
+msgid ""
+"<p><b><big>Other Entry</big></b><br/>\n"
+"The options are comma separated, as customary for the <b>mount</b>(8) command.<br/>\n"
+"The location specifies from where the file system is to be mounted.\n"
+"Please consult the <b>autofs</b>(5) manual page for more information.\n"
+"<br/></p>\n"
+msgstr ""
+"<p><b><big>Otras entradas</big></b><br/>\n"
+"Las opciones son una lista de opciones separadas por comas al estilo de las habituales para la orden <b>mount</b>(8).<br/>\n"
+"La localización especifica donde ha de ser montado el sistema de archivos.\n"
+"Por favor consulte <b>autofs</b>(5) para más información.\n"
+"<br/></p>\n"
+
+# Cer ¿achieved?
+#. GetLDAPServer dialog if the ldapserver is localhost
+#: src/helps.ycp:112
+msgid ""
+"<p><b><big>Warning</big></b><br>\n"
+"In your system <b>localhost</b> is configured as the LDAP server.\n"
+"However, the clients cannot reach the <b>localhost</b> and therefore, it cannot be the LDAP server for autofs.\n"
+"Please insert an IP address or DNS name for the LDAP server that is suitable for the clients, or choose the suggested hostname of your server\n"
+"and press <b>Ok</b>.\n"
+"<br></p>"
+msgstr ""
+"<p><b><big>Advertencia</big></b><br>\n"
+"En su sistema <b>localhost</b> está configurado como el servidor LDAP.\n"
+"Pero <b>localhost</b> no puede ser el servidor LDAP para autofs porque no puede ser alcanzado por los clientes. \n"
+"Por favor, introduzca la dirección IP o el nombre DNS de un servidor LDAP satisfactorio para los clientes.  o escoja el nombre sugerido de su servidor.\n"
+"y pulse <b>OK</b>.\n"
+"<br></p>"
+
+#. Initialization dialog contents
+#: src/wizards.ycp:88
+msgid "Initializing..."
+msgstr "Iniciando..."
